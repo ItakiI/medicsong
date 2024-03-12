@@ -6,8 +6,8 @@ require_once __DIR__ . '/config/cdb.php';
 $id = $_GET['id'];
 
 // Nouvelles valeurs à mettre à jour
-$echantillon = $_POST["echantillon"];
-$image = $_POST["image"];
+$echantillon = '/medicsong/assets/mp3/' . $_POST["echantillon"];
+$image = '/medicsong/assets/img/' . $_POST["image"];
 $description = $_POST["description"];
 
 

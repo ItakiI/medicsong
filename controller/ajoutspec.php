@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/config/cdb.php';
+require_once dirname(__DIR__) .  '/config/cdb.php';
 
 function ajoutSpec($bdd) {
 
@@ -15,6 +15,6 @@ function ajoutSpec($bdd) {
   $stmt2->execute($donnee2);
 }
 
- header('Location:' . __DIR__ . '/admin.php'); 
+ header('Location: ../views/admin.php'); 
 
  ?>
