@@ -1,21 +1,11 @@
-<!DOCTYPE html>
-<html lang="fr">
-
 <?php 
-require_once './head.php'; 
-require_once 'cdb.php';
-require_once 'tableauinter.php';
-
-
-foreach ($result as $row) {
-   if ($row['perso_id'] == $_GET['perso_id']) {
+require_once __DIR__ . '/components/head.php'; 
+require_once __DIR__ . '/config/cdb.php';
 ?>
 
-<body class="bg-warning-subtle">
-
-    <form action="modifpersobdd.php?id=<?php echo $row['perso_id'] ?> " method='post'>
+    <form action="modifpersobdd.php?id=<?php echo $_GET['id'] ?> " method='post'>
         
-        <input type="text" name="id" value="<?php $_GET['perso_id']?>" hidden>
+        <input type="text" name="id" value="<?php echo $_GET['id']?>" hidden>
 
         <div>
             <label for="echantillon">Echantillon</label>
@@ -40,9 +30,4 @@ foreach ($result as $row) {
         </div>
     </form>
 
-    <?php }} 
-    require_once './footer.php'; ?>
-
-</body>
-
-</html>
+    <?php require_once __DIR__ . '/components/footer.php'; ?>

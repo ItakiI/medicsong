@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
+<?php require_once __DIR__ . '/components/head.php'; ?>
 
-<?php require_once './head.php'; ?>
-
-<body>
-    <?php require_once 'cdb.php'; ?>
+    <?php require_once __DIR__ . '/config/cdb.php'; ?>
 
     <form action="ajoutdoc.php" enctype="multipart/form-data" method="post">
         <div>
@@ -27,27 +23,21 @@
             <input type="textarea" name="description" id="description">
         </div>
         <br>
-        <!-- <div>
+        <div>
             <label for="signature">Signature</label>
             <input type="file" name="signature" id="signature">
-        </div> -->
+        </div>
         <br>
         <div>
             <label for="spec">Spécialite</label>
             <select name="spec" id="spec">
                 <?php require_once 'selectformspec.php'; ?>
             </select>
-
         </div>
         <br>
         <div>
             <button type="submit">Enregistrer les modifications</button>
-
         </div>
     </form>
 
-    <?php require_once './footer.php'; ?>
-
-</body>
-
-</html>
+    <?php require_once __DIR__ . '/components/footer.php'; ?>

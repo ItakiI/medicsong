@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 if (empty($_GET['id'])) 
     header('Location: /index.php');
 
@@ -60,7 +60,7 @@ else
         Description : <textarea class="btn-in textarea" name="description"><?php echo $wine['description'] ?></textarea><br>
         Type de vin : 
         <select class="btn grappe" name="id_grappe">
-            <?php
+            <!-- <?php
                 function selectAll ($db){
                     $sql = "SELECT *
                     FROM grappes 
@@ -77,7 +77,7 @@ else
                         echo '<option selected="' . $wine['id_grappe'] . '">' . $grappe['name_grappe'] . '</option>';
                     endif;
                 }
-            ?>
+            ?> -->
 
         </select><br>
                 <label for="name_picture" class="btn picture-file">Choisir une image</label>
@@ -86,6 +86,5 @@ else
         <input type="submit" name="submit" value="Modifier le vin" class="btn"><br>
     </form>
 </div>
-<?php
-include ('./utilities/footer.php'); 
-?>   
+
+// include ('./utilities/footer.php');  -->

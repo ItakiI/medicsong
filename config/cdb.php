@@ -4,7 +4,7 @@
 
 try {
     // On se connecte à MySQL
-    $bdd = new PDO('mysql:host=localhost;dbname=medicsong', 'root', '');
+    $bdd = new PDO('mysql:host=localhost;dbname=medicsong', 'root', 'Nico2205!');
 } catch (Exception $e) {
     // En cas d'erreur, on affiche un message et on arrête tout
 

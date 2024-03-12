@@ -1,6 +1,6 @@
 <?php
 
-require_once 'cdb.php';
+require_once __DIR__ . '/config/cdb.php';
 
 // ID de l'utilisateur à mettre à jour
 $id = $_GET['id'];
@@ -22,11 +22,6 @@ $docteurStat->bindValue(':id', $id); // Assurez-vous de lier l'ID en tant que en
 $docteurStat->execute();
 
 
-
-header('Location: admin.php');
-
-
-
+header('Location:' . __DIR__ . '/admin.php');
 
 ?>
-

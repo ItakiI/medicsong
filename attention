@@ -1,0 +1,5 @@
+// On récupére les infos dans la table perso_has_spec
+$sqlQuery = 'SELECT * FROM perso_has_spec';
+$recipesStatement = $bdd->prepare($sqlQuery);
+$recipesStatement->execute();
+$recipes = $recipesStatement->fetchAll();

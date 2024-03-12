@@ -1,6 +1,6 @@
 <?php
 
-require_once 'cdb.php';
+require_once __DIR__ . '/config/cdb.php';
 
 // création de variable qui serons rappelé
 $id = $_GET['id'];
@@ -15,4 +15,4 @@ $tablePerso = $bdd->prepare($tablePersos);
 $tablePerso->bindValue(':id', $id);
 $tablePerso->execute();
 
-header('Location: admin.php');
+header('Location:' . __DIR__ . ' /admin.php');
