@@ -20,10 +20,10 @@
                             <a class="nav-link active" href="/medicsong/views/admin.php">ADMINISTRATION</a>
                         </li>
                         <li class="nav-item me-4">
-                            <a class="nav-link active" href="#">NOS PRODUIT</a>
+                            <a class="nav-link active" href="/medicsong/views/nosproduits.phtml">NOS PRODUIT</a>
                         </li>
                         <li class="nav-item me-4">
-                            <a class="nav-link active" href="/medicsong/views/contact.html.php">CONTACT</a>
+                            <a class="nav-link active" href="/medicsong/views/contact.phtml">CONTACT</a>
                         </li>
                     </ul>
                 </div>
