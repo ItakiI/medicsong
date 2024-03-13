@@ -16,6 +16,7 @@ réduire taille card
 --------------------------------------------------------------------------------------------
 OPTION :
 
+formulaire de contact fonctionnel (qui envoi bien le mail!)
 ajout de MP3 pour autre docteur
 
 --------------------------------------------------------------------------------------------
