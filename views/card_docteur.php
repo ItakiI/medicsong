@@ -1,4 +1,4 @@
-<div class="d-flex justify-content-evenly row row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 m-3 g-0">
+<div class="d-flex justify-content-evenly row row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 m-3 b-3 p-3 g-0">
 
 <?php
 foreach  ($result as $row) {
