@@ -9,20 +9,19 @@ require_once __DIR__ . '/config/cdb.php';
 
         <div>
             <label for="echantillon">Echantillon</label>
-            <input type="text" name="echantillon" id="echantillon">
+            <input type="text" name="echantillon" id="echantillon" pattern="[A-Za-z0-9]+" autofocus>
         </div>
         <br>
         <div>
             <label for="image">Image</label>
-            <input type="file" name="image" id="image">
+            <input type="file" name="image" id="image" accept=".jpg, .jpeg, .png, .gif">
         </div>
         <br>
         <div>
             <label for="description">Description</label>
-            <input type="textarea" name="description" id="description">
+            <input type="textarea" name="description" id="description" pattern="[A-Za-z0-9]+">
         </div>
         <br>
-        </div>
         <br>
         <div>
             <button type="submit">Enregistrer les modifications</button>

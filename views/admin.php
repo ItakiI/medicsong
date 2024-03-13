@@ -5,7 +5,6 @@
 require_once dirname(__DIR__) . '/config/cdb.php';
 // redirection du tableau intermédiaire perso_has_spec
 require_once dirname(__DIR__) . '/tableauinter.php';
-
 // redirection des liens CSS & JS
 require_once dirname(__DIR__) . '/components/head.php';
 // redirection de la navbar + bannière
@@ -45,5 +44,4 @@ foreach  ($result as $row) {
 
 // redirection du footer
 require_once '/components/footer.php';
-
 ?>
