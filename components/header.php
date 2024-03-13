@@ -1,34 +1,32 @@
-<header>
-    <!--logo position sur navbar a l'angle gauche.-->
-    <!-- Barre de navigation avec des liens pointant vers des ancres prédéfinies -->
 
-    <nav class="bg-success navbar navbar-expand-xl justify-content-evenly border-black border-bottom">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.php">
-                <img src="/medicsong/assets/img/vinnylmedico.gif" alt="Medic'Song" width="150" height="100">
-            </a>
-            <h1>Medicsong</h1>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item p-5">
-                        <a class="nav-link active" aria-current="page" href="/medicsong/index.html.php">Accueil</a>
-                    </li>
-                    <li class="nav-item p-5">
-                        <a class="nav-link" href="/medicsong/views/admin.php">Administration</a>
-                    </li>
-                    <li class="nav-item p-5">
-                        <a class="nav-link" href="#">Nos Produits</a>
-                    </li>
-                    <li class="nav-item p-5">
-                        <a class="nav-link" href="/medicsong/views/contact.html.php">Contact</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-success p-0 border-black border-bottom">
+            <div class="container-fluid d-flex justify-content-between bg-success">
+                <div class=" d-flex align-items-center flex-wrap">
+                <a class="navbar-brand" href="#"><img src="/medicsong/assets/img/vinnylmedico.gif" alt="Medic'Song" width="120" height="70">     
+                </a>
+                <a><h1>Medicsong</h1></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end pe-5" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link active" href="/medicsong/index.html.php">ACCEUIL</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link active" href="/medicsong/views/admin.php">ADMINISTRATION</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link active" href="#">NOS PRODUIT</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link active" href="/medicsong/views/contact.html.php">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-
-</header>
+        </nav>
+    </header>

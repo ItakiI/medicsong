@@ -1,4 +1,5 @@
-<main>
+
+
 
 <div class="cols d-flex justify-content-evenly align-item-center p-5 g-0">
     <div class="card text-center border-0 bg-transparent mb-3" style="max-width: 100%;">
@@ -24,4 +25,3 @@
     </div>
 </div>
 
-</main>
