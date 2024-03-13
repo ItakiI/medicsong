@@ -13,6 +13,8 @@ require_once dirname(__DIR__) . '/components/header.php';
 
 require_once dirname(__DIR__) . '/components/ban_list_doc.php';
 
+require_once 'admin_presentation.php';
+
   // affichage des docteurs
 require_once 'card_docteur.php'; 
 
