@@ -5,7 +5,7 @@
     <nav class="bg-success navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.php">
-                <img src="assets\img\vinnylmedico.gif" alt="Medic'Song" width="150" height="100">
+                <img src="/medicsong/assets/img/vinnylmedico.gif" alt="Medic'Song" width="150" height="100">
             </a>
             <h1>Medicsong</h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
@@ -15,16 +15,16 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item p-5">
-                        <a class="nav-link active" aria-current="page" href="./index.php">Accueil</a>
+                        <a class="nav-link active" aria-current="page" href="/medicsong/index.html.php">Accueil</a>
                     </li>
                     <li class="nav-item p-5">
-                        <a class="nav-link" href="./admin.php">Administration</a>
+                        <a class="nav-link" href="/medicsong/views/admin.php">Administration</a>
                     </li>
                     <li class="nav-item p-5">
                         <a class="nav-link" href="#">Nos Produits</a>
                     </li>
                     <li class="nav-item p-5">
-                        <a class="nav-link" href="../projet_medicsong/contact.html.php">Contact</a>
+                        <a class="nav-link" href="/medicsong/views/contact.html.php">Contact</a>
                     </li>
                 </ul>
             </div>
