@@ -15,6 +15,6 @@ $tablePerso = $bdd->prepare($tablePersos);
 $tablePerso->bindValue(':id', $id);
 $tablePerso->execute();
 
-header('Location:' . dirname(__DIR__) . '/admin.php');
+header('Location: ../views/admin.php');
 
 ?>

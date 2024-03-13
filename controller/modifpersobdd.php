@@ -1,13 +1,13 @@
 <?php
 
-require_once __DIR__ . '/config/cdb.php';
+require_once dirname(__DIR__) . '/config/cdb.php';
 
 // ID de l'utilisateur à mettre à jour
 $id = $_GET['id'];
 
 // Nouvelles valeurs à mettre à jour
 $echantillon = '/medicsong/assets/mp3/' . $_POST["echantillon"];
-$image = '/medicsong/assets/img/' . $_POST["image"];
+$image = '/medicsong/assets/img/' . $_FILES["image"]["name"];
 $description = $_POST["description"];
 
 
@@ -22,6 +22,6 @@ $docteurStat->bindValue(':id', $id); // Assurez-vous de lier l'ID en tant que en
 $docteurStat->execute();
 
 
-header('Location:' . __DIR__ . '/admin.php');
+header('Location: ../views/admin.php');
 
 ?>

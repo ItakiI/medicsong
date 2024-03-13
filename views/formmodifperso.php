@@ -4,7 +4,7 @@ require_once dirname(__DIR__) . '/components/head.php';
 require_once dirname(__DIR__) . '/components/header.php';
 ?>
 
-<form action="modifpersobdd.php?id=<?php echo $_GET['id'] ?> " method='post'>
+<form action="/medicsong/controller/modifpersobdd.php?id=<?php echo $_GET['id'] ?> " method='post'>
 
     <input type="text" name="id" value="<?php echo $_GET['id'] ?>" hidden>
 
