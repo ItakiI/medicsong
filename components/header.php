@@ -2,7 +2,7 @@
     <!--logo position sur navbar a l'angle gauche.-->
     <!-- Barre de navigation avec des liens pointant vers des ancres prédéfinies -->
 
-    <nav class="bg-success navbar navbar-expand-lg">
+    <nav class="bg-success navbar navbar-expand-xl justify-content-evenly border-black border-bottom">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.php">
                 <img src="/medicsong/assets/img/vinnylmedico.gif" alt="Medic'Song" width="150" height="100">

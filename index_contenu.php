@@ -1,110 +1,27 @@
 <main>
 
-<!-- présentation du groupe -->
-<div id="present">
-  <p class="presentation">
-    Bienvenue chez Médic’Song, où la musique devient la médecine de l'âme.
-    Notre équipe de spécialistes est dévouée à aider chacun à retrouver
-    l'équilibre émotionnel à travers une thérapie unique : la musique.
-    Nous croyons fermement que les mélodies bien choisies peuvent apaiser
-    l'esprit, stimuler la motivation et offrir un soulagement aux maux de
-    l'âme.
-  </p>
-</div>
-
-<!-- titre + ordonnance -->
-<div id="title">
-  <h2>Nos Produits</h2>
-</div>
-
-<div class="ordon">
-  <img class="imgdoc" src="assets/img/ordo-johnny.gif"
-    alt="ordonnance1">
-    <img class="imgdoc" src="assets/img/ordo-eminem.gif"
-    alt="ordonnance2"><img
-    class="imgdoc"
-    src="assets/img/ordo-bob.gif"
-    alt="ordonnance3"
-  ><img
-    class="imgdoc"
-    src="assets/img/ordo-james.gif"
-    alt="ordonnance4"
-  >
-</div>
-
-<!-- MP3 -->
-<div class="musique">
-  <figure>
-    <figcaption>Échantillon :</figcaption>
-    <audio controls src="assets/musiques/johnny.wav">
-      <a href="assets/musiques/johnny.wav"> Download audio </a>
-    </audio>
-  </figure>
-  <figure>
-    <figcaption>Échantillon :</figcaption>
-    <audio controls src="assets/musiques/eminem.wav">
-      <a href="assets/musiques/eminem.wav"> Download audio </a>
-    </audio>
-  </figure>
-  <figure>
-    <figcaption>Échantillon :</figcaption>
-    <audio controls src="assets/musiques/bob.wav">
-      <a href="assets/musiques/bob.wav"> Download audio </a>
-    </audio>
-  </figure>
-  <figure>
-    <figcaption>Échantillon :</figcaption>
-    <audio controls src="assets/musiques/metallica.wav">
-      <a href="assets/musiques/metallica.wav"> Download audio </a>
-    </audio>
-  </figure>
-</div>
-
-<!-- cards -->
- <!-- james hetfield -->
-<div class="row row-cols-1 row-cols-md-4 g-4">
-  <div class="col">
-    <div class="card">
-      <img src="assets/img/avatar4.gif" class="card-img-top" alt="Dr james hetfield">
-      <div class="card-body">
-        <h5 class="card-title">Dr. James Hetfield</h5>
-        <p class="card-text">Dénouer les tensions avec des accords puissants.</p>
-      </div>
+<div class="cols d-flex justify-content-evenly align-item-center p-5 g-0">
+    <div class="card text-center border-0 bg-transparent mb-3" style="max-width: 100%;">
+        <div class="row d-flex justify-content-evenly align-item-center g-0">
+            <div class="col-md-5 b-3 m-3 d-flex justify-content-evenly align-items-center border-start-0">
+                <img src="assets\img\logo_medecin.gif" class="img-fluid g-0 w-auto h-auto rounded-start border-bottom-0">
+            </div>
+            <div class="col-md-6 d-flex justify-content-evenly align-item-center align-self-center">
+                <div class="col-md-7">
+                    <div class="card-body">
+                        <h5>La Dream Team de la Santé par la Musique</h5>
+                        <p>Découvrez la crème de la crème des guérisseurs modernes au sein de Médic'Song !<br> 
+                        Notre équipe diversifiée de médecins rockstars est là pour vous offrir une guérison complète et sans compromis.<br> 
+                        Des spécialistes renommés dans leurs domaines respectifs, chacun apportant son expertise unique pour vous aider à surmonter les défis 
+                        de la santé physique et mentale. Cliquez sur le lien pour en savoir plus sur chaque membre de notre équipe et découvrez comment la musique peut transformer votre vie.</p>
+                    </div>   
+                    <div class="">
+                        <a href="/medicsong/views/admin.php" class="card-link btn btn-success">Plus d'inforations.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-
-<!-- bob marley -->
-  <div class="col">
-    <div class="card">
-      <img src="assets/img/avatar3.gif" class="card-img-top" alt="Dr bob marley">
-      <div class="card-body">
-        <h5 class="card-title">Dr. Bob Marley</h5>
-        <p class="card-text">Les sons envoûtants pour apaiser les esprits.</p>
-      </div>
-    </div>
-  </div>
-
-    <!-- eminem -->
-  <div class="col">
-    <div class="card">
-      <img src="assets/img/avatar2.gif" class="card-img-top" alt="Dr emi-nem">
-      <div class="card-body">
-        <h5 class="card-title">Dr. Emi-Nem</h5>
-        <p class="card-text">Le pouvoir des mots et du rythme <br>pour retrouver la motivation.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- johnny hallyday -->
-  <div class="col">
-    <div class="card">
-      <img src="assets/img/avatar1.gif" class="card-img-top" alt="Dr johnny">
-      <div class="card-body">
-        <h5 class="card-title">Dr. Johnny Hallyday</h5>
-        <p class="card-text">Allume le feu pour combattre la fatigue.</p>
-      </div>
-    </div>
-  </div>
 </div>
 
 </main>
