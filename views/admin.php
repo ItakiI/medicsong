@@ -5,15 +5,18 @@
 require_once dirname(__DIR__) . '/config/cdb.php';
 // redirection du tableau intermédiaire perso_has_spec
 require_once dirname(__DIR__) . '/tableauinter.php';
-
 // redirection des liens CSS & JS
 require_once dirname(__DIR__) . '/components/head.php';
 // redirection de la navbar + bannière
 require_once dirname(__DIR__) . '/components/header.php';
+require_once dirname(__DIR__) . '/components/ban_list_doc.php';?>
 
-require_once dirname(__DIR__) . '/components/ban_list_doc.php';
+<div class="container">
+<a href="/medicsong/" class="card-link btn btn-success btn-lg">Ajouter un médecin</a>
+<a href="/medicsong/" class="card-link btn btn-success btn-lg">Ajouter une specialité</a>
+</div>
 
-require_once 'admin_presentation.php';
+<?php require_once 'admin_presentation.php';
 
   // affichage des docteurs
 require_once 'card_docteur.php'; 
