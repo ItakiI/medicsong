@@ -11,9 +11,10 @@ require_once dirname(__DIR__) . '/components/head.php';
 // redirection de la navbar + bannière
 require_once dirname(__DIR__) . '/components/header.php';
 
+require_once dirname(__DIR__) . '/components/ban_list_doc.php';
+
   // affichage des docteurs
 require_once 'card_docteur.php'; 
-
 
 // redirection du footer
 require_once dirname(__DIR__) . '/components/footer.php';
