@@ -34,3 +34,5 @@ require_once dirname(__DIR__) . '/components/header.php';
 <?php 
 require_once dirname(__DIR__) . '/components/footer.php';
  ?>
+
+
