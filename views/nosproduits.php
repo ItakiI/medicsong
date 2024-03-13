@@ -1,5 +1,7 @@
-<?php require_once dirname(__DIR__) . '/components/head.php';
+<?php 
+require_once dirname(__DIR__) . '/components/head.php';
 require_once dirname(__DIR__) . '/components/header.php';
+require_once dirname(__DIR__) . '/components/ban_produit.php';
 ?>
 
 <div id="carouselExampleControlsNoTouching" class="carousel slide w-50 m-50 container mt-5 mb-5" data-bs-touch="false">
