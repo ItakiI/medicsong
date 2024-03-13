@@ -1,6 +1,6 @@
 <?php require_once dirname(__DIR__) . '/components/head.php';
 require_once dirname(__DIR__) . '/components/header.php';
- ?>
+?>
 
 <div id="carouselExampleControlsNoTouching" class="carousel slide w-50 m-50 container mt-5 mb-5" data-bs-touch="false">
   <div class="carousel-inner">
@@ -24,5 +24,4 @@ require_once dirname(__DIR__) . '/components/header.php';
   </button>
 </div>
 
-<?php require_once dirname(__DIR__) . '/components/footer.php';?>
-
+<?php require_once dirname(__DIR__) . '/components/footer.php'; ?>
