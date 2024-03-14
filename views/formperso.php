@@ -1,46 +1,40 @@
-
-<?php 
-require_once dirname(__DIR__) . '/config/cdb.php'; 
-require_once dirname(__DIR__) . '/components/head.php'; 
+<?php
+require_once dirname(__DIR__) . '/config/cdb.php';
+require_once dirname(__DIR__) . '/components/head.php';
 require_once dirname(__DIR__) . '/components/header.php';
 ?>
 
-    <form class= "mt-5 mb-5" action="/medicsong/controller/ajoutdoc.php" enctype="multipart/form-data" method="post">
-        <div>
-            <label for="nom">Nom</label>
-            <input type="text" name="nom" id="nom" autofocus>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 justify-content-center g-0">
+    <div class="col mb-5">
+        <div class="card bg-transparent border-0 ">
+            <form class="form-control border border-3 border-success bg-transparent text-center" action="/medicsong/controller/ajoutdoc.php" enctype="multipart/form-data" method="post">
+                <div class="m-5">
+                    <label class="form-label" for="nom">Nom :</label>
+                    <input class="form-control" type="text" name="nom" id="nom" autofocus>
+                    <br>
+                    <label class="form-label" for="echantillon">Echantillon :</label>
+                    <input class="form-control" type="text" name="echantillon" id="echantillon" ">
+                    <br>
+                    <label class=" form-label" for="image">Image :</label>
+                    <input class="form-control" type="file" name="image" id="image" accept=".pdf, .jpg, .jpeg, .png, .gif, .webp ">
+                    <br>
+                    <label class="form-label" for="description">Description :</label>
+                    <input class="form-control" type="textarea" name="description" id="description" pattern="[A-Za-z0-9]+">
+                    <br>
+                    <label class="form-label" for="signature">Signature :</label>
+                    <input class="form-control" type="file" name="signature" id="signature" accept=".pdf, .jpg, .jpeg, .png, .gif, .webp">
+                    <br>
+                    <label class="form-label" for="sujet">Spécialite :</label>
+                    <select class="form-label form-select-lg w-100" name="spec" id="spec">
+                        <?php require_once dirname(__DIR__) .  '/controller/selectformspec.php'; ?>
+                    </select>
+                    <br>
+                    <button class="card-link btn btn-success d-grid gap-2 col-8 mx-auto mt-5" type="submit">Enregistrer les modifications</button>
+                </div>
+            </form>
         </div>
-        <br>
-        <div>
-            <label for="echantillon">Echantillon</label>
-            <input type="text" name="echantillon" id="echantillon" ">
-        </div>
-        <br>
-        <div>
-            <label for="image">Image</label>
-            <input type="file" name="image" id="image" accept=".pdf, .jpg, .jpeg, .png, .gif, .webp ">
-        </div>
-        <br>
-        <div>
-            <label for="description">Description</label>
-            <input type="textarea" name="description" id="description" pattern="[A-Za-z0-9]+">
-        </div>
-        <br>
-        <div>
-            <label for="signature">Signature</label>
-            <input type="file" name="signature" id="signature" accept=".pdf, .jpg, .jpeg, .png, .gif, .webp">
-        </div>
-        <br>
-        <div>
-            <label for="spec">Spécialite</label>
-            <select name="spec" id="spec">
-                <?php require_once dirname(__DIR__) .  '/controller/selectformspec.php'; ?>
-            </select>
-        </div>
-        <br>
-        <div>
-            <button type="submit">Enregistrer les modifications</button>
-        </div>
-    </form>
+    </div>
+</div>
 
-    <?php require_once dirname(__DIR__) . '/components/footer.php'; ?>
+
+<?php require_once dirname(__DIR__) . '/components/footer.php'; ?>
