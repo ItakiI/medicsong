@@ -1,6 +1,9 @@
 
-    <?php require_once dirname(__DIR__) . '/config/cdb.php'; ?>
-    <?php require_once dirname(__DIR__) . '/components/head.php'; ?>
+<?php 
+require_once dirname(__DIR__) . '/config/cdb.php'; 
+require_once dirname(__DIR__) . '/components/head.php'; 
+require_once dirname(__DIR__) . '/components/header.php';
+?>
 
     <form class= "mt-5 mb-5" action="/medicsong/controller/ajoutdoc.php" enctype="multipart/form-data" method="post">
         <div>

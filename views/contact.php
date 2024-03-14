@@ -1,7 +1,8 @@
 <?php 
 require_once dirname(__DIR__) . '/components/head.php'; 
 require_once dirname(__DIR__) . '/components/header.php';
-require_once dirname(__DIR__ ) . '/components/banniere.php'; ?>
+require_once dirname(__DIR__ ) . '/components/ban_contact.php';
+?>
 
 <div>
   <div class="afin">
@@ -12,8 +13,8 @@ require_once dirname(__DIR__ ) . '/components/banniere.php'; ?>
   <form class ="mt-5 mb-5" action="/ma-page-de-traitement" method="post">
     <ul id="form">
       <li>
-        <label for="name">Pseudo:</label><br>
-        <input type="text" id="name" name="user_name" placeholder="Votre Pseudo">
+        <label for="name">Nom :</label><br>
+        <input type="text" id="name" name="user_name" placeholder="Votre nom">
       </li>
       <li>
         <label for="mail">E-mail:</label><br>
@@ -34,6 +35,7 @@ require_once dirname(__DIR__ ) . '/components/banniere.php'; ?>
         <textarea id="msg" name="user_message" placeholder="Votre message..."></textarea>
       </li>
     </ul>
+    <br>
 
     <button type="submit">Envoyer le message</button>
 
