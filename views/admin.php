@@ -13,8 +13,9 @@ require_once dirname(__DIR__) . '/components/ban_list_doc.php';
 require_once 'admin_presentation.php'; ?>
 
 <div class="d-flex justify-content-around m-5">
-  <a href="/medicsong/views/formperso.phtml" class="card-link btn btn-success btn-lg">Ajouter un médecin</a>
-  <a href="/medicsong/views/formspec.phtml" class="card-link btn btn-success btn-lg">Ajouter une specialité</a>
+  <a href="/medicsong/views/formperso.php" class="card-link btn btn-success btn-lg">Ajouter un médecin</a>
+  <a href="/medicsong/formproduits.php" class="card-link btn btn-success btn-lg">Ajouter un produit</a>
+  <a href="/medicsong/views/formspec.php" class="card-link btn btn-success btn-lg">Ajouter une specialité</a>
 </div>
 
 <?php
