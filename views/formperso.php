@@ -18,7 +18,7 @@ require_once dirname(__DIR__) . '/components/header.php';
         <br>
         <div>
             <label for="image">Image</label>
-            <input type="file" name="image" id="image" accept=".jpg, .jpeg, .png, .gif">
+            <input type="file" name="image" id="image" accept=".pdf, .jpg, .jpeg, .png, .gif, .webp ">
         </div>
         <br>
         <div>
@@ -28,7 +28,7 @@ require_once dirname(__DIR__) . '/components/header.php';
         <br>
         <div>
             <label for="signature">Signature</label>
-            <input type="file" name="signature" id="signature" accept=".pdf .doc .docx .xls .xlsx .jpg .jpeg .png .gif">
+            <input type="file" name="signature" id="signature" accept=".pdf, .jpg, .jpeg, .png, .gif, .webp">
         </div>
         <br>
         <div>
