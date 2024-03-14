@@ -11,3 +11,6 @@ try {
     die('Erreur : ' . $e->getMessage());
 }
 // Si tout va bien, on peut continuer
+
+
+// 'mysql:host=localhost;dbname=medicsong', 'root', 'Nico2205!';

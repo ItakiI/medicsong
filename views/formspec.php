@@ -7,7 +7,7 @@ require_once dirname(__DIR__) . '/components/header.php';
 <form action="ajoutspec.php" method="post">
 <div>
     <label for="spec">Spécialités</label>
-    <input type="text" name="spec" id="spec" pattern="[A-Za-z0-9]+" >
+    <input type="text" name="spec" id="spec" >
 </div>
 <br>
 <div>   
