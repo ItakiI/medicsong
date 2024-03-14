@@ -4,7 +4,7 @@ require_once dirname(__DIR__) . '/config/cdb.php';
 
 //on récupère les infos saisies dans le formulaire
 $nom = $_POST["nom"];
-$echantillon = '/medicsong/assets/mp3/' . $_POST["echantillon"];
+$echantillon = '/medicsong/assets/mp3/' . $_FILES["echantillon"]["name"];
 $image = '/medicsong/assets/img/' . $_FILES["image"]["name"];
 $description = $_POST['description'];
 $signature = '/medicsong/assets/img/' . $_FILES["signature"]["name"];

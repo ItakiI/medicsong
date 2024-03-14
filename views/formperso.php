@@ -13,7 +13,7 @@ require_once dirname(__DIR__) . '/components/header.php';
                     <input class="form-control" type="text" name="nom" id="nom" autofocus>
                     <br>
                     <label class="form-label" for="echantillon">Echantillon :</label>
-                    <input class="form-control" type="text" name="echantillon" id="echantillon" ">
+                    <input class="form-control" type="file" name="echantillon" id="echantillon" ">
                     <br>
                     <label class=" form-label" for="image">Image :</label>
                     <input class="form-control" type="file" name="image" id="image" accept=".pdf, .jpg, .jpeg, .png, .gif, .webp ">
