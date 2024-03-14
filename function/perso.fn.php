@@ -15,3 +15,4 @@ function addPersoWithSpec ($bdd,$spec){
     $stmt->execute();
     return $stmt;
 }
+
