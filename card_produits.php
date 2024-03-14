@@ -26,7 +26,7 @@ if ($produits) {
 
     echo  '<div class="card text-center border border-black m-3 w-auto h-auto">
     <div class="align-item-center p-0 g-0 m-0">
-      <img src="' . $produit["image"] . '" class="img-fluid p-0 g-0 m-0 border-bottom-0" alt="Photo de la possion">
+      <img src="' . $produit["image"] . '" class="img-fluid p-0 g-0 m-0 border-bottom-0" alt="Photo de la potion">
     </div>
     <div class="card-body">
       <h5 class="card-title">' . $produit["nom"] . '</h5><br>
