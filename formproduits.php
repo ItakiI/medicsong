@@ -8,6 +8,7 @@ require_once __DIR__ . '/components/header.php';
 
 ?>
 
+
 <form class="mt-5 mb-5" action="add_produits.php" enctype="multipart/form-data" method="post">
     <div>
         <label for="nom">Nom</label>
