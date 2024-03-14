@@ -6,7 +6,7 @@ require_once __DIR__ . '/function/produits.fn.php';
 
 updateProduits($bdd);
 
-header('Location: /medicsong/views/admin.php');
+header('Location: /medicsong/card_produits.php');
 
 ?>
 
