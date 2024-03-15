@@ -19,7 +19,7 @@ require_once dirname(__DIR__) . '/components/header.php';
                     <input class="form-control" type="file" name="image" id="image" accept=".pdf, .jpg, .jpeg, .png, .gif, .webp ">
                     <br>
                     <label class="form-label" for="description">Description :</label>
-                    <input class="form-control" type="textarea" name="description" id="description" pattern="[A-Za-z0-9]+">
+                    <input class="form-control" type="textarea" name="description" id="description">
                     <br>
                     <label class="form-label" for="signature">Signature :</label>
                     <input class="form-control" type="file" name="signature" id="signature" accept=".pdf, .jpg, .jpeg, .png, .gif, .webp">
