@@ -1,19 +1,11 @@
 <?php
 
 require_once dirname(__DIR__) . '/config/cdb.php';
+require_once dirname(__DIR__) . '/function/perso.fn.php';
 
-// création de variable qui serons rappelé
-$id = $_GET['id'];
+//on appel la fonction de suppression de l'utilisateur qui ce situe dans le dossier function perso.fn.php
 
-$tableMere = 'DELETE FROM perso_has_spec WHERE perso_id = :id';
-$tableMere = $bdd->prepare($tableMere);
-$tableMere->bindValue(':id', $id);
-$tableMere->execute();
-
-$tablePersos = 'DELETE FROM perso WHERE id = :id';
-$tablePerso = $bdd->prepare($tablePersos);
-$tablePerso->bindValue(':id', $id);
-$tablePerso->execute();
+deletePerso($bdd);
 
 header('Location: ../views/admin.php');
 

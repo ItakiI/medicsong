@@ -11,7 +11,7 @@ require_once dirname(__DIR__) . '/components/header.php';
                 <input type="text" name="id" value="<?php echo $_GET['id'] ?>" hidden>
                 <div class="m-5">
                     <label class="form-label" for="echantillon">Echantillon</label>
-                    <input class="form-control" type="text" name="echantillon" id="echantillon">
+                    <input class="form-control" type="file" name="echantillon" id="echantillon">
                     <br>
                     <label class="form-label" for="image">Image</label>
                     <input class="form-control" type="file" name="image" id="image">
