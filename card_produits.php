@@ -38,8 +38,8 @@ if ($produits) {
       <p class="card-text">Titre :<br>' . $produit["titre_2"] . '</p>
     </div>
     <div class="card-body">
-      <a href="/medicsong/formmodifproduits.php?id=' . $produit['id'] . '" class="card-link btn btn-success">Modifier</a>
-      <a href="/medicsong/delete_produits.php?id=' . $produit['id'] . '" class="card-link btn btn-danger">Supprimer</a>
+      <a href="/medicsong/controller/formmodifproduits.php?id=' . $produit['id'] . '" class="card-link btn btn-success">Modifier</a>
+      <a href="/medicsong/controller/delete_produits.php?id=' . $produit['id'] . '" class="card-link btn btn-danger">Supprimer</a>
     </div>
   </div>';
   }
