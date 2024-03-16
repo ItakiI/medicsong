@@ -11,8 +11,8 @@ require_once __DIR__ . '/components/ban_produit.php';
 // require_once dirname(__DIR__) . '/components/header.php';
 // require_once dirname(__DIR__) . '/components/ban_produit.php';
 
-
 ?>
+
 <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-4 row-cols-xl-6 g-0">
 
   <?php
@@ -29,7 +29,7 @@ require_once __DIR__ . '/components/ban_produit.php';
       <div class="card m-2" style="..">
         <div class="row g-0">
           <div class="cols-lg-4">
-            <img src="'<?php echo $produit["image"] ?>" class="img-fluid border-bottom-0" alt="Photo de la potion">
+            <img src="<?php echo $produit["image"] ?>" class="img-fluid border-bottom-0" alt="Photo de la potion">
           </div>
           <div class="cols-lg-8">
             <div class="card-body ">
