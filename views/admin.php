@@ -9,8 +9,7 @@ require_once dirname(__DIR__) . '/tableauinter.php';
 require_once dirname(__DIR__) . '/components/head.php';
 // redirection de la navbar + bannière
 require_once dirname(__DIR__) . '/components/header.php';
-// redirection de la banniere
-require_once dirname(__DIR__) . '/components/ban_list_doc.php';?>
+require_once dirname(__DIR__) . '/components/ban_list_doc.php';
 
 <!-- présentation des médecins -->
 <div id="present">

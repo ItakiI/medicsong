@@ -6,6 +6,7 @@
     // affichage des docteurs 
   ?>
 
+
     <div class="card text-center border border-black m-3 bg-secondary " style="--bs-bg-opacity: .5;">
       <div class="d-flex justify-content-center mt-3">
         <img src="<?php echo $row["image"] ?>" class=" w-75 h-auto border border-black" alt="Photo du docteur">
