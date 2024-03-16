@@ -1,16 +1,11 @@
 <?php 
-// require_once dirname(__DIR__) . '/config/cdb.php';
-// require_once dirname(__DIR__) . '/components/head.php';
-// require_once dirname(__DIR__) . '/components/header.php';
-
-require_once __DIR__ . '/config/cdb.php';
-require_once __DIR__ . '/components/head.php';
-require_once __DIR__ . '/components/header.php';    
-
+require_once dirname(__DIR__) . '/config/cdb.php';
+require_once dirname(__DIR__) . '/components/head.php';
+require_once dirname(__DIR__) . '/components/header.php';
 ?>
 
 
-<form class="mt-5 mb-5" action="update_produits.php?id=<?= $_GET['id']?>" method="post">
+<form class="mt-5 mb-5" action="medicsong/contoller/update_produits.php?id=<?= $_GET['id']?>" method="post">
     <div>
         <label for="prix">Prix</label>
         <input type="number" step="0.01" min="0" name="prix" id="prix">

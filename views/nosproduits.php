@@ -4,7 +4,7 @@ require_once dirname(__DIR__) . '/components/header.php';
 require_once dirname(__DIR__) . '/components/ban_produit.php';
 ?>
 
-<div id="carouselExampleControlsNoTouching" class="carousel slide w-50 m-50 container mt-5 mb-5" data-bs-touch="false">
+<div id="carouselExampleControlsNoTouching" class="carousel slide w-25 m-25 container mt-5 mb-5" data-bs-touch="false">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="/medicsong/assets/img/pochette bob 1.jpg" class="d-block w-100" alt="...">
@@ -25,5 +25,5 @@ require_once dirname(__DIR__) . '/components/ban_produit.php';
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
+<?php require_once dirname(__DIR__) . '/card_produits.php'; ?>
 <?php require_once dirname(__DIR__) . '/components/footer.php'; ?>
