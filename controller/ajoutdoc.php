@@ -25,7 +25,7 @@ try {
    $stmt = $bdd->prepare($sql);
    $stmt->execute($donnee);
    
-   // $bdd->lastInsertId();
+//    // $bdd->lastInsertId();
    
    
    $last = "INSERT INTO perso_has_spec (perso_id, spec_id) VALUES (?,?)";

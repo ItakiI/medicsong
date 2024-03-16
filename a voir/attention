@@ -128,3 +128,37 @@ $recipes = $recipesStatement->fetchAll();
     </div>
   </div>
 </div> -->
+
+
+<!-- $nom = $_POST["nom"];
+// function validateNom($nom) {
+//    // Expression régulière pour valider le nom
+//    $pattern = '/^[a-zA-ZÀ-ÿ\s\'-]+$/u';
+   
+//    // Vérifier si le nom correspond à la regex
+//    if (preg_match($pattern, $nom)) {
+//        return true; // Le nom est valide
+//    } else {
+//        return false; // Le nom est invalide
+//    }
+// }
+// validateNom($nom);
+// var_dump(validateNom($nom));
+
+// // Exemple d'utilisation de la fonction de validation
+// $nom1 = "Jean Dupont";
+// $nom2 = "John123"; // Nom invalide avec des chiffres
+
+// if (validateNom($nom1)) {
+//    echo "$nom1 est un nom valide.";
+// } else {
+//    echo "$nom1 est un nom invalide.";
+// }
+
+// echo "<br>";
+
+// if (validateNom($nom2)) {
+//    echo "$nom2 est un nom valide.";
+// } else {
+//    echo "$nom2 est un nom invalide.";
+// } -->
