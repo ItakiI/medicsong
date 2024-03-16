@@ -10,6 +10,7 @@ require_once dirname(__DIR__) . '/components/head.php';
 // redirection de la navbar + bannière
 require_once dirname(__DIR__) . '/components/header.php';
 require_once dirname(__DIR__) . '/components/ban_list_doc.php';
+
 require_once 'admin_presentation.php'; ?>
 
 <div class="d-flex justify-content-around m-5">

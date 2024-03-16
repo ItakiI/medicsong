@@ -6,7 +6,7 @@
     // affichage des docteurs 
   ?>
 
-    <div class="card text-center border border-black m-3">
+    <div class="card text-center border border-black m-3" height="200">
       <div class="align-item-center mh-100">
         <img src="<?php echo $row["image"] ?>" class="img-fluid mh-100 w-auto border-bottom-0" alt="Photo du docteur">
       </div>
