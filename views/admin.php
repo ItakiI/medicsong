@@ -11,7 +11,10 @@ require_once dirname(__DIR__) . '/components/head.php';
 require_once dirname(__DIR__) . '/components/header.php';
 require_once dirname(__DIR__) . '/components/ban_list_doc.php';
 
+?>
+
 <!-- présentation des médecins -->
+
 <div id="present">
   <p class="presentation text-center">
   Bienvenue sur notre page dédiée à nos éminents guérisseurs de Medic'Song !<br>
@@ -23,7 +26,7 @@ require_once dirname(__DIR__) . '/components/ban_list_doc.php';
 <!-- Boutons d'ajouts des Docteurs, des produits, des specialités -->
 <div class="d-flex justify-content-around m-5">
   <a href="/medicsong/views/formperso.php" class="card-link btn btn-primary btn-lg">Ajouter un Médecin</a>
-  <a href="/medicsong/formproduits.php" class="card-link btn btn-primary btn-lg">Ajouter un Produit</a>
+  <a href="/medicsong/views/formproduits.php" class="card-link btn btn-primary btn-lg">Ajouter un Produit</a>
   <a href="/medicsong/views/formspec.php" class="card-link btn btn-primary btn-lg">Ajouter une Specialité</a>
 </div>
 
