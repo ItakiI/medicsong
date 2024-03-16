@@ -9,20 +9,26 @@ require_once dirname(__DIR__) . '/tableauinter.php';
 require_once dirname(__DIR__) . '/components/head.php';
 // redirection de la navbar + bannière
 require_once dirname(__DIR__) . '/components/header.php';
-require_once dirname(__DIR__) . '/components/ban_list_doc.php';
-require_once 'admin_presentation.php'; ?>
+// redirection de la banniere
+require_once dirname(__DIR__) . '/components/ban_list_doc.php';?>
 
-<div class="d-flex justify-content-around m-5">
-  <a href="/medicsong/views/formperso.php" class="card-link btn btn-success btn-lg">Ajouter un médecin</a>
-  <a href="/medicsong/formproduits.php" class="card-link btn btn-success btn-lg">Ajouter un produit</a>
-  <a href="/medicsong/views/formspec.php" class="card-link btn btn-success btn-lg">Ajouter une specialité</a>
+<!-- présentation des médecins -->
+<div id="present">
+  <p class="presentation text-center">
+  Bienvenue sur notre page dédiée à nos éminents guérisseurs de Medic'Song !<br>
+  Explorez notre équipe de spécialistes en musique-thérapie, chacun expert dans son domaine, prêt à vous aider à atteindre un bien-être complet.<br>
+  Découvrez comment nos médecins rockstars utilisent la puissance de la musique pour élever votre santé physique et émotionnelle.
+  </p>
 </div>
 
-<?php
-// affichage des docteurs
-require_once 'card_docteur.php';
+<!-- Boutons d'ajouts des Docteurs, des produits, des specialités -->
+<div class="d-flex justify-content-around m-5">
+  <a href="/medicsong/views/formperso.php" class="card-link btn btn-primary btn-lg">Ajouter un Médecin</a>
+  <a href="/medicsong/formproduits.php" class="card-link btn btn-primary btn-lg">Ajouter un Produit</a>
+  <a href="/medicsong/views/formspec.php" class="card-link btn btn-primary btn-lg">Ajouter une Specialité</a>
+</div>
 
-// redirection du footer
-require_once dirname(__DIR__) . '/components/footer.php';
-
-?>
+<!-- redirection des cartes docteur -->
+<?php require_once 'card_docteur.php';?>
+<!-- // redirection du footer -->
+<?php require_once dirname(__DIR__) . '/components/footer.php';?>
