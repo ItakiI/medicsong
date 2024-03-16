@@ -10,7 +10,7 @@ require_once dirname(__DIR__) . '/components/header.php';
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 justify-content-center g-0">
     <div class="col mb-5">
         <div class="card bg-transparent border-0 ">
-            <form class="form-control border border-3 border-success bg-transparent text-center" action="medicsong/controller/add_produits.php" enctype="multipart/form-data" method="post">
+            <form class="form-control border border-3 border-success bg-transparent text-center" action="/medicsong/controller/add_produits.php" enctype="multipart/form-data" method="post">
                 <div class="m-5">
                     <label class="form-label" for="nom">Nom :</label>
                     <input class="form-control" type="text" name="nom" id="nom" autofocus>
@@ -50,4 +50,4 @@ require_once dirname(__DIR__) . '/components/header.php';
 
 
 
-<?php require_once __DIR__ . '/components/footer.php'; ?>
+<?php require_once dirname(__DIR__) . '/components/footer.php'; ?>

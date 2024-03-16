@@ -45,8 +45,8 @@ require_once __DIR__ . '/components/ban_produit.php';
             </div>
           </div>
           <div class="card-body d-flex justify-content-evenly">
-            <a href="/medicsong/formmodifproduits.php?id=<?php echo $produit['id'] ?>" class="card-link btn btn-success">Modifier</a>
-            <a href="/medicsong/delete_produits.php?id=<?php echo $produit['id'] ?>" class="card-link btn btn-danger">Supprimer</a>
+            <a href="/medicsong/views/formmodifproduits.php?id=<?php echo $produit['id'] ?>" class="card-link btn btn-success">Modifier</a>
+            <a href="/medicsong/controller/delete_produits.php?id=<?php echo $produit['id'] ?>" class="card-link btn btn-danger">Supprimer</a>
           </div>
         </div>
       </div>
