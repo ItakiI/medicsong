@@ -9,7 +9,6 @@ require_once __DIR__ . '/config/cdb.php';
 //     echo $sql . "<br>" . $e->getMessage();
 // }
 
-
 try {
     
     $sql = "SELECT * FROM perso_has_spec JOIN perso ON perso_has_spec.perso_id = perso.id JOIN spec ON perso_has_spec.spec_id = spec.id";
