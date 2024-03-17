@@ -43,10 +43,11 @@ ul {
   align-items: center;
 }
 
-.nav-title {
-  font-family: 'Faster one' !important;
-  font-size: 2em !important;
-  font-weight: 400 !important;
+h1 {
+  font-family: 'Faster one';
+  color: white;
+  font-size: 3em;
+  font-weight: 400;
 }
 
 .navUl {
@@ -185,8 +186,10 @@ audio {
   background-color: rgb(42, 98, 80);
 }
 
-.card img {
+.banner img {
   object-fit: cover;
+  width: 450px;
+  height: 650px;
   border-bottom: 2px solid black;
 }
 
@@ -366,32 +369,4 @@ button {
 button:hover {
   background-color: #e6b205ea;
   border: #000 solid 1px;
-}
-
-/*buttons pour ajouter*/
-.add-btn:hover {
-  background-color: #ffc107 !important;
-  border: green !important;
-}
-
-.btn {
-  box-shadow: 1px 2px 5px black;
-}
-
-.doctor-card {
-  min-width: 200px !important;
-}
-
-nav ul li a {
-  border-radius: 5px !important;
-}
-
-nav ul li a:hover {
-  background-color: #e6b205ea !important;
-  color: white !important;
-}
-
-.product {
-  /* min-width: 200px !important; */
-  /* max-width: 200px !important; */
 }

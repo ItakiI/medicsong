@@ -31,7 +31,7 @@ require_once __DIR__ . '/components/ban_produit.php';
             <h5 class="card-title fw-bold"><?php echo $produit["nom"] ?></h5>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">Prix : <span class="text-danger"><?php echo $produit["prix"] ?></span></li>
+            <li class="list-group-item">Prix : <span class="text-danger"><?php echo $produit["prix"] ?></span> €</li>
             <li class="list-group-item">Stock : <span class="text-danger"><?php echo $produit["stock"] ?></span></li>
             <li class="list-group-item">Vendu : <span class="text-danger"><?php echo $produit["vendu"] ?></span></li>
             <li class="list-group-item">Titre : <span class="text-danger"><?php echo $produit["titre"] ?></span></li>

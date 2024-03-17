@@ -17,7 +17,7 @@
         <p class="card-text">Description :<br><span class="text-danger"><?php echo $row["description"] ?>
             <figure>
               <p>Échantillon :</p><br>
-              <audio controls src="<?php echo $row["echantillon"] ?>" class="w-100">
+              <audio class="form-control" controls src="<?php echo $row["echantillon"] ?>">
                 <a href="<?php echo $row["echantillon"] ?>">Download audio</a>
               </audio>
             </figure>

@@ -1,4 +1,4 @@
-<div class="card w-auto h-75" style="width: 120px;">
+<div class="card banner w-auto h-75" style="width: 120px;">
     <img src="assets/img/ban-modif.gif" class="w-auto" alt="...">
     <div class="ban card-img-overlay">
         <div class="a">
