@@ -13,7 +13,7 @@ require_once __DIR__ . '/components/ban_produit.php';
 
 ?>
 
-<div class="d-flex justify-content-evenly row row-cols-sm-1 row-cols-md-2 row-cols-lg-4 row-cols-xl-4 g-0">
+<div class="row gap-4 row-cols-2 row-cols-sm-2 row-cols-lg-3 row-cols-xxl-5 w-100 text-center justify-content-center my-5">
 
   <?php
   // Récupérer les produits
@@ -24,31 +24,29 @@ require_once __DIR__ . '/components/ban_produit.php';
 
       // affichage des produits
   ?>
-
-      <div>
-        <div class="card mb-3 m-3" style="max-height: 560px; width: auto">
-          <div class="row g-0">
-            <div class="col-md-5 d-flex align-self-center">
-              <img src="<?php echo $produit["image"] ?>" class=" img-fluid rounded-start h-100 w-100 m-3 border-bottom-0 border border-black" alt="">
-            </div>
-            <div class="col-md-7">
-              <div class="card-body m-0 mb-0 b-0 bb-0 p-0 pb-0 g-0 gb-0">
-                <h5 class="card-title text-center"><?php echo $produit["nom"] ?></h5>
-                <p>Prix : <?php echo $produit["prix"] ?><br>
-                  Stock : <?php echo $produit["stock"] ?><br>
-                  Vendu : <?php echo $produit["vendu"] ?><br>
-                  Titre : <?php echo $produit["titre"] ?><br>
-                  Titre : <?php echo $produit["titre_1"] ?><br>
-                  Titre : <?php echo $produit["titre_2"] ?></p>
-              </div>
-            </div>
+      <div class="card col pt-2">
+        <img src="<?php echo $produit["image"] ?>" class="card-img-top" alt="..." />
+        <div>
+          <div class="card-body">
+            <h5 class="card-title fw-bold"><?php echo $produit["nom"] ?></h5>
           </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Prix : <span class="text-danger"><?php echo $produit["prix"] ?></span></li>
+            <li class="list-group-item">Stock : <span class="text-danger"><?php echo $produit["stock"] ?></span></li>
+            <li class="list-group-item">Vendu : <span class="text-danger"><?php echo $produit["vendu"] ?></span></li>
+            <li class="list-group-item">Titre : <span class="text-danger"><?php echo $produit["titre"] ?></span></li>
+            <li class="list-group-item">Titre : <span class="text-danger"><?php echo $produit["titre_1"] ?></li>
+            <li class="list-group-item">Titre : <span class="text-danger"><?php echo $produit["titre_2"] ?></li>
+          </ul>
         </div>
-        <div class="card-body d-flex justify-content-evenly mb-3">
-          <a href="/medicsong/views/formmodifproduits.php?id=<?php echo $produit['id'] ?>" class="card-link btn btn-success">Modifier</a>
-          <a href="/medicsong/controller/delete_produits.php?id=<?php echo $produit['id'] ?>" class="card-link btn btn-danger">Supprimer</a>
+        <div class="card-body d-flex flex-column justify-content-end">
+
+          <a href="/medicsong/views/formmodifproduits.php?id=<?php echo $produit['id'] ?>" class=" btn btn-success my-2 w-100">Modifier</a>
+
+          <a href="/medicsong/controller/delete_produits.php?id=<?php echo $produit['id'] ?>" class=" btn btn-danger my-2 w-100">Supprimer</a>
         </div>
       </div>
+
   <?php
 
     }
@@ -59,9 +57,5 @@ require_once __DIR__ . '/components/ban_produit.php';
   ?>
 
 </div>
-
-
-
-
 
 <?php require_once __DIR__ . '/components/footer.php'; ?>
