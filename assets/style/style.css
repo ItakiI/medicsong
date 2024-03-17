@@ -3,24 +3,24 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* fond */
 
 body {
-background-color: rgb(179, 147, 98) !important;
+  background-color: rgb(179, 147, 98) !important;
 }
 
 
 /* Navbar + logo + ul*/
 
 #logo1 {
-width: 15vh;
-margin-top: 1rem;
-margin-bottom: 1rem;
+  width: 15vh;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 ul {
@@ -30,225 +30,225 @@ ul {
 }
 
 .nav_header {
-background-color: rgb(42, 98, 80);
-display: flex;
-text-align: center;
-align-items: center; 
-justify-content: space-between;
+  background-color: rgb(42, 98, 80);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.logo{
-display: flex;
-text-align: center;
-align-items: center;
+.logo {
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
 h1 {
-font-family: 'Faster one';
-color: white;
-font-size: 3em;
-font-weight: 400;
+  font-family: 'Faster one';
+  color: white;
+  font-size: 3em;
+  font-weight: 400;
 }
 
 .navUl {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .navLi {
-width: 10rem;
-font-size: larger;
-font-family: 'nunito';
-color: rgb(179,147,98);
+  width: 10rem;
+  font-size: larger;
+  font-family: 'nunito';
+  color: rgb(179, 147, 98);
 }
 
 a {
-list-style: none;
-text-decoration: none;
-color: rgb(179,147,98);
+  list-style: none;
+  text-decoration: none;
+  color: rgb(179, 147, 98);
 }
-  
-a:hover{
-color: black;
+
+a:hover {
+  color: black;
 }
 
 /* banniere */
 
 .ban {
-background-image: url(assets/img/ban-modif.gif);
-display: flex;
-flex-wrap: nowrap;
-justify-content: space-between;
-align-items: center;
-align-content: stretch;
-background-position-y: 45%;
-background-size: cover;
-height: 65vh;
+  background-image: url(assets/img/ban-modif.gif);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  background-position-y: 45%;
+  background-size: cover;
+  height: 65vh;
 }
 
 /* Titre de la baniére */
 
 h2 {
-font-family: "pacifico";
-font-size: 3em;
-font-weight: 200;
+  font-family: "pacifico";
+  font-size: 3em;
+  font-weight: 200;
 }
 
 .a {
-margin-left: 3rem;
+  margin-left: 3rem;
 }
 
-.b{
-display: block;
-margin-top: 20%;
-margin-right: 5%;  
+.b {
+  display: block;
+  margin-top: 20%;
+  margin-right: 5%;
 }
 
 .slogan {
-font-family: 'beau rivage';
-color: white;
-font-size: 3em;
-font-weight: 100;
-text-shadow: 1px 1px 2px rgb(210, 6, 6), 0 0 1em blue, 0 0 0.2em blue;
+  font-family: 'beau rivage';
+  color: white;
+  font-size: 3em;
+  font-weight: 100;
+  text-shadow: 1px 1px 2px rgb(210, 6, 6), 0 0 1em blue, 0 0 0.2em blue;
 }
 
 #present {
-display: flex;
-justify-content: center;
-margin-top: 8rem;
-margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
 }
 
 .presentation {
-margin-left: 15%;
-margin-right: 15%;
-font-size: 2em;
-font-family: "pacifico";
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 2em;
+  font-family: "pacifico";
 }
 
 /* Nos Produits */
 
 #title {
-display: flex;
-justify-content: center; 
-padding-bottom: 8%; 
-  
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8%;
+
 }
 
 /* image ordonance */
 
 .ordon {
-display: flex;
-justify-content: space-around;
-padding-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5%;
 }
 
 .imgdoc {
-width: 30em;
-margin: 1%;
-border: 1px solid black;
-border-radius: 2%;
+  width: 30em;
+  margin: 1%;
+  border: 1px solid black;
+  border-radius: 2%;
 }
 
 /* musiques */
 
 figcaption {
-font-family: "pacifico";
-display: flex;
-justify-content: center;
-margin-bottom: 5%;
+  font-family: "pacifico";
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
 }
 
 .musique {
-display: flex;
-justify-content: space-around;
-padding-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5%;
 }
 
 audio {
-border: 1px solid black;
-border-radius: 45%;
+  border: 1px solid black;
+  border-radius: 45%;
 }
 
 /* cards docteur, avec description dessous */
 
 .cards {
-display: flex;
-justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .card {
-display: grid;
-grid-template-rows: max-content 120px 1fr;
-border: 2px solid black;
-font-family: 'pacifico';
-font-size: medium;
-background-color: rgb(42, 98, 80);
+  display: grid;
+  grid-template-rows: max-content 120px 1fr;
+  border: 2px solid black;
+  font-family: 'pacifico';
+  font-size: medium;
+  background-color: rgb(42, 98, 80);
 }
 
-.card img {
-object-fit: cover;
-width: 450px;
-height: 650px;
-border-bottom: 2px solid black;
+.banner img {
+  object-fit: cover;
+  width: 450px;
+  height: 650px;
+  border-bottom: 2px solid black;
 }
 
 .content {
   padding: 1%;
-  }
+}
 
 .content h4 {
-display: flex;
-justify-content: center;
-text-decoration: underline 2px;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline 2px;
 }
 
 .card p {
-text-align: center;
-font-size: 125%;
+  text-align: center;
+  font-size: 125%;
 }
 
 
 /* barre footer */
 
 .foot {
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-justify-content: space-between;
-align-items: center;
-align-content: stretch;
-margin-top: 4rem;
-margin-left: 2rem;
-margin-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 
 }
 
 .adresse {
-font-family: 'Pacifico';
-font-size: x-large;
+  font-family: 'Pacifico';
+  font-size: x-large;
 }
 
 #icon1 {
-display:flex;
-  
+  display: flex;
+
 }
 
 #icon1 li {
-list-style: none;
-font-size: 100%;
-margin: 2rem;
+  list-style: none;
+  font-size: 100%;
+  margin: 2rem;
 }
 
 .value {
-color: rgb(1, 3, 3);
-display: flex;
-font-size: x-large;
-text-align: center;
-justify-content: center;
-font-family: "pacifico";
-font-style: italic;
-letter-spacing: 2px;
+  color: rgb(1, 3, 3);
+  display: flex;
+  font-size: x-large;
+  text-align: center;
+  justify-content: center;
+  font-family: "pacifico";
+  font-style: italic;
+  letter-spacing: 2px;
 }
 
 
@@ -258,65 +258,65 @@ letter-spacing: 2px;
 
 
 .afin {
-font-family: 'pacifico';
-font-size: 2em;
-display: flex;
-justify-content: center;
-margin-top: 4%;
+  font-family: 'pacifico';
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
 }
 
 /* formulaire de contact */
 
 form {
 
-/* Le contour du formulaire */
+  /* Le contour du formulaire */
 
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-border:rgb(42, 98, 80) 5px solid;
-border-radius: 1em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: rgb(42, 98, 80) 5px solid;
+  border-radius: 1em;
 
-/* On centre le formulaire */
+  /* On centre le formulaire */
 
-margin: auto;
-margin-top: 4%;
-color: rgb(42, 98, 80);
+  margin: auto;
+  margin-top: 4%;
+  color: rgb(42, 98, 80);
 }
 
 
 #form {
-list-style: none;
-font-size: 1.5rem;  
-display: flex;
-flex-direction: column;
-padding: 0;
-margin: 0;
+  list-style: none;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
 }
 
-form li{
+form li {
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
 }
 
-form li + li {
-margin-top: 2em;
+form li+li {
+  margin-top: 2em;
 }
 
 /* Titres des cases */
 
 label {
-display: flex;
-justify-content: center;
-font-family: 'pacifico';
-font-size: 1.5rem;  
+  display: flex;
+  justify-content: center;
+  font-family: 'pacifico';
+  font-size: 1.5rem;
 }
 
 input {
-  color: #000;  
+  color: #000;
 }
 
 ::placeholder {
@@ -328,14 +328,15 @@ input {
 
 select {
   font-family: 'pacifico';
-  font-size: 1.5rem;  
+  font-size: 1.5rem;
   width: 500px;
   border: 2px solid rgb(42, 98, 80);
 }
 
-input,textarea {
+input,
+textarea {
   font-family: 'pacifico';
-  font-size: 1.5rem;  
+  font-size: 1.5rem;
   width: 500px;
   box-sizing: border-box;
   border: 2px solid rgb(42, 98, 80);
@@ -358,14 +359,14 @@ button {
   color: #000;
   font-family: 'pacifico';
   margin-top: 10%;
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
   /* width: 500px;  */
-  border:none;
-  border-radius:5px;
+  border: none;
+  border-radius: 5px;
   padding: 1rem;
 }
 
 button:hover {
-background-color: #e6b205ea;
-border: #000 solid 1px;
+  background-color: #e6b205ea;
+  border: #000 solid 1px;
 }
