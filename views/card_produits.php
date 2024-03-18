@@ -1,15 +1,15 @@
 <?php
 
-require_once __DIR__ . '/config/cdb.php';
-require_once __DIR__ . '/function/produits.fn.php';
-require_once __DIR__ . '/components/head.php';
-require_once __DIR__ . '/components/header.php';
-require_once __DIR__ . '/components/ban_produit.php';
-// require_once dirname(__DIR__) . '/config/cdb.php';
-// require_once dirname(__DIR__) . '/function/produits.fn.php';
-// require_once dirname(__DIR__) . '/components/head.php';
-// require_once dirname(__DIR__) . '/components/header.php';
-// require_once dirname(__DIR__) . '/components/ban_produit.php';
+// require_once __DIR__ . '/config/cdb.php';
+// require_once __DIR__ . '/function/produits.fn.php';
+// require_once __DIR__ . '/components/head.php';
+// require_once __DIR__ . '/components/header.php';
+// require_once __DIR__ . '/components/ban_produit.php';
+require_once dirname(__DIR__) . '\config\cdb.php';
+require_once dirname(__DIR__) . '\function\produits.fn.php';
+require_once dirname(__DIR__) . '\components\head.php';
+require_once dirname(__DIR__) . '\components\header.php';
+require_once dirname(__DIR__) . '\components\ban_produit.php';
 
 ?>
 
@@ -24,13 +24,13 @@ require_once __DIR__ . '/components/ban_produit.php';
 
       // affichage des produits
   ?>
-      <div class="card col pt-2">
-        <img src="<?php echo $produit["image"] ?>" class="card-img-top" alt="..." />
+      <div class="card col pt-2 shadow bg-secondary-subtle">
+        <img src="<?php echo $produit["image"] ?>" class="card-img-top border border-bottom-0 shadow " alt="..." />
         <div>
-          <div class="card-body">
-            <h5 class="card-title fw-bold"><?php echo $produit["nom"] ?></h5>
+          <div class="card-body shadow">
+            <h5 class="card-title fw-bold fs-4"><?php echo $produit["nom"] ?></h5>
           </div>
-          <ul class="list-group list-group-flush">
+          <ul class="list-group list-group-flush shadow rounded">
             <li class="list-group-item">Prix : <span class="text-danger"><?php echo $produit["prix"] ?></span> €</li>
             <li class="list-group-item">Stock : <span class="text-danger"><?php echo $produit["stock"] ?></span></li>
             <li class="list-group-item">Vendu : <span class="text-danger"><?php echo $produit["vendu"] ?></span></li>
@@ -58,4 +58,4 @@ require_once __DIR__ . '/components/ban_produit.php';
 
 </div>
 
-<?php require_once __DIR__ . '/components/footer.php'; ?>
+<?php require_once dirname(__DIR__) . '\components\footer.php'; ?>

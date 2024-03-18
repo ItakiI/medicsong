@@ -1,6 +1,6 @@
 <?php
 //on rappelle la bdd
-require_once dirname(__DIR__) . '/config/cdb.php';
+require_once dirname(__DIR__) . '\config\cdb.php';
 
 //on récupère les infos saisies dans le formulaire
 $nom = $_POST["nom"];
