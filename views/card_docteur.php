@@ -1,5 +1,4 @@
-<div class="d-flex justify-content-evenly row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 m-3 b-3 p-3 g-0">
-<!-- <div class="d-flex justify-content-evenly row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 m-3 b-3 p-3 g-0"> -->
+<div class="row gap-4 row-cols-2 row-cols-sm-2 row-cols-lg-3 row-cols-xxl-5 w-100 text-center justify-content-center my-5">
 
 
   <?php
@@ -7,25 +6,38 @@
 
     // affichage des docteurs 
   ?>
-
-
-    <div class="card text-center border border-black m-2 bg-secondary " style="--bs-bg-opacity: .5;">
-      <div class="d-flex justify-content-center m-1 bt-0 pt-0 gt-0">
-        <img src="<?php echo $row["image"] ?>" class=" w-100 h-100 mt-0 bt-0 pt-0 gt-0 border border-black" alt="Photo du docteur">
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Dr. <?php echo $row["name"] ?></h5><br>
-        <p class="card-text">Spécialité :<br><?php echo $row["spec"] ?></p>
-        <p class="card-text">Description :<br><?php echo $row["description"] ?>
-        <figure>
-          <p>Échantillon :</p><br>
-          <audio class="form-control" controls src="<?php echo $row["echantillon"] ?>">
-            <a href="<?php echo $row["echantillon"] ?>">Download audio</a>
-          </audio>
-        </figure>
-        <div class="d-flex justify-content-center">
-          <img src="<?php echo $row["signature"] ?>" class=" w-25 h-25 border-bottom-0 bg-transparent" alt="Signature du docteur">
+    <div class="card col pt-2 bg-dark-subtle shadow ">
+      <img src="<?php echo $row["image"] ?>" class="card-img-top img-thumbnail shadow" alt="docteur-image" />
+      <div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold fs-3">Dr. <span class="fw-normal"><?php echo $row["name"] ?></h5>
         </div>
+          
+        <ul class="list-group list-group-flush fs-5 rounded shadow   ">
+          <li class="px-2 bg-body-secondary rounded-top">
+            <p>Spécialité : <br> <span class="text-success"><?php echo $row["spec"] ?>
+                <hr>
+          </li>
+          <li class="px-2  bg-body-secondary ">
+            <p class="card-text">Description : <br> <span class="fs-6"><?php echo $row["description"] ?></span>
+              <hr>
+          </li>
+          <li class="px-2  bg-body-secondary">
+            <figure>
+              <p>Échantillon :</p>
+              <audio class="px-2 form-control bg-dark-subtle" controls src="<?php echo $row["echantillon"] ?>">
+                <a href="<?php echo $row["echantillon"] ?>">Download audio</a>
+              </audio>
+            </figure>
+          </li>
+          <li class="p-2 bg-body-secondary bg-body-secondary">
+            <div class="d-flex justify-content-center bg-body-secondary">
+              <img src="<?php echo $row["signature"] ?>" class=" w-50 h-25 border-bottom-0" alt="Signature du docteur">
+            </div>
+          </li>
+
+        </ul>
+          
       </div>
       <div class="card-body d-flex flex-column justify-content-end">
 
@@ -34,40 +46,6 @@
         <a href="/medicsong/controller/deleteperso.php?id=<?php echo $row['perso_id'] ?>" class=" btn btn-danger my-2 w-100">Supprimer</a>
       </div>
     </div>
-
-    <!-- <div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card h-100">
-    <img src="<?php echo $row["image"] ?>" class="card-img-top w-100 h-100 mt-0 bt-0 pt-0 gt-0 border border-black" alt="...">
-      <div class="card-body">
-      <h5 class="card-title text-center fs-6">Dr. <?php echo $row["name"] ?></h5>
-              <p class="fs-6">Spécialité :<br><?php echo $row["spec"] ?></p>
-              <p class="fs-6">Description :<br><?php echo $row["description"] ?>
-              <figure>
-                <p class="fs-6">Échantillon :</p><br>
-                <audio class="form-control" controls src="<?php echo $row["echantillon"] ?>"></audio>
-              </figure>
-                <div class="d-flex justify-content-center">
-                  <img src="<?php echo $row["signature"] ?>" class=" w-25 h-25 border-bottom-0 bg-transparent" alt="Signature du docteur">
-                </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
-    </div>
-    <div class="card-body">
-              <a href="/medicsong/views/formmodifperso.php?id=<?php echo $row['perso_id'] ?>" class="card-link btn btn-success border border-black">Modifier</a>
-              <a href="/medicsong/controller/deleteperso.php?id=<?php echo $row['perso_id'] ?>" class="card-link btn btn-danger border border-black">Supprimer</a>
-            </div> -->
-
-
-
-
-
-
-
-  <?php }  ?>
-
-</div>
 
 
 
