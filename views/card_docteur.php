@@ -1,5 +1,6 @@
 <div class="row gap-4 row-cols-2 row-cols-sm-2 row-cols-lg-4 row-cols-xxl-5 w-100 text-center justify-content-center my-5">
 
+
   <?php
   foreach ($result as $row) {
 
@@ -11,6 +12,7 @@
         <div class="card-body">
           <h5 class="card-title fw-bold fs-3">Dr. <span class="fw-normal"><?php echo $row["name"] ?></h5>
         </div>
+          
         <ul class="list-group list-group-flush fs-5 rounded shadow   ">
           <li class="px-2 bg-body-secondary rounded-top">
             <p>Spécialité : <br> <span class="text-success"><?php echo $row["spec"] ?>
@@ -35,6 +37,7 @@
           </li>
 
         </ul>
+          
       </div>
       <div class="card-body d-flex flex-column justify-content-end">
 
@@ -43,12 +46,6 @@
         <a href="/medicsong/controller/deleteperso.php?id=<?php echo $row['perso_id'] ?>" class=" btn btn-danger my-2 w-100">Supprimer</a>
       </div>
     </div>
-
-
-
-  <?php }  ?>
-
-</div>
 
 
 
