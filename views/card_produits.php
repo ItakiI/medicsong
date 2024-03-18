@@ -22,31 +22,32 @@ require_once dirname(__DIR__) . '\components\ban_produit.php';
   if ($produits) {
     foreach ($produits as $produit) {
 
-      // affichage des produits
+      // affichage des docteurs 
   ?>
-      <div class="card col pt-2 shadow bg-secondary-subtle">
-        <img src="<?php echo $produit["image"] ?>" class="card-img-top border border-bottom-0 shadow " alt="..." />
-        <div>
-          <div class="card-body shadow">
-            <h5 class="card-title fw-bold fs-4"><?php echo $produit["nom"] ?></h5>
+      <div class="card mb-3 shadow px-0" style="max-width: 540px;">
+        <div class="row g-0 justify-content-center shadow">
+          <div class=" p-3 col-md-5 d-flex flex-column justify-content-center bg-dark-subtle shadow ">
+            <img src="<?php echo $produit["image"] ?>" class="img-fluid rounded-start shadow shadow" alt="...">
+            <h5 class="card-title fs-5 text-center mt-3"><?php echo $produit["nom"] ?></h5>
           </div>
-          <ul class="list-group list-group-flush shadow rounded">
-            <li class="list-group-item">Prix : <span class="text-danger"><?php echo $produit["prix"] ?></span> €</li>
-            <li class="list-group-item">Stock : <span class="text-danger"><?php echo $produit["stock"] ?></span></li>
-            <li class="list-group-item">Vendu : <span class="text-danger"><?php echo $produit["vendu"] ?></span></li>
-            <li class="list-group-item">Titre : <span class="text-danger"><?php echo $produit["titre"] ?></span></li>
-            <li class="list-group-item">Titre : <span class="text-danger"><?php echo $produit["titre_1"] ?></li>
-            <li class="list-group-item">Titre : <span class="text-danger"><?php echo $produit["titre_2"] ?></li>
-          </ul>
-        </div>
-        <div class="card-body d-flex flex-column justify-content-end">
+          <div class="col-md-7 bg-secondary-subtle ">
+            <div class="card-body shadow  ">
 
-          <a href="/medicsong/views/formmodifproduits.php?id=<?php echo $produit['id'] ?>" class=" btn btn-success my-2 w-100">Modifier</a>
+              <p class="card-text">Prix : <span class="text-danger"><?php echo $produit["prix"] ?></span> €</span>
 
-          <a href="/medicsong/controller/delete_produits.php?id=<?php echo $produit['id'] ?>" class=" btn btn-danger my-2 w-100">Supprimer</a>
+              <p class="card-text">Stock : <span class="text-danger"><?php echo $produit["stock"] ?> </span>
+
+              <p class="card-text">Vendu : <span class="text-danger"><?php echo $produit["vendu"] ?></span>
+
+              <p class="card-text">Titre : <span class="text-danger"><?php echo $produit["titre"] ?></span>
+
+              <p class="card-text">Titre : <span class="text-danger"><?php echo $produit["titre_1"] ?></span>
+              <p class="card-text">Titre : <span class="text-danger"><?php echo $produit["titre_2"] ?></span>
+
+            </div>
+          </div>
         </div>
       </div>
-
   <?php
 
     }
@@ -59,3 +60,6 @@ require_once dirname(__DIR__) . '\components\ban_produit.php';
 </div>
 
 <?php require_once dirname(__DIR__) . '\components\footer.php'; ?>
+
+
+<?php

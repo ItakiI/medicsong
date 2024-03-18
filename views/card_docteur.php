@@ -1,22 +1,23 @@
-<div class="row gap-4 row-cols-2 row-cols-sm-2 row-cols-lg-3 row-cols-xxl-4 w-100 text-center justify-content-center my-5">
+<div class="row gap-4 row-cols-2 row-cols-sm-2 row-cols-lg-3 row-cols-xxl-5 w-100 text-center justify-content-center my-5">
 
   <?php
   foreach ($result as $row) {
 
     // affichage des docteurs 
   ?>
-    <div class="card col pt-2 bg-dark-subtle  shadow ">
-      <img src="<?php echo $row["image"] ?>" class="card-img-top img-thumbnail shadow" alt="..." />
+    <div class="card col pt-2 bg-dark-subtle shadow ">
+      <img src="<?php echo $row["image"] ?>" class="card-img-top img-thumbnail shadow" alt="docteur-image" />
       <div>
         <div class="card-body">
           <h5 class="card-title fw-bold fs-3">Dr. <span class="fw-normal"><?php echo $row["name"] ?></h5>
         </div>
         <ul class="list-group list-group-flush fs-5 rounded shadow   ">
           <li class="list-group-item bg-secondary-subtle">
-            <p>Spécialité : <span class="text-success"><?php echo $row["spec"] ?><hr>
+            <p>Spécialité : <span class="text-success"><?php echo $row["spec"] ?>
+                <hr>
           </li>
           <li class="list-group-item bg-secondary-subtle ">
-            <p class="card-text">Description  : <br> <span class="fs-6"><?php echo $row["description"] ?></span>
+            <p class="card-text">Description : <br> <span class="fs-6"><?php echo $row["description"] ?></span>
               <hr>
           </li>
           <li class="list-group-item bg-secondary-subtle">
@@ -48,3 +49,7 @@
   <?php }  ?>
 
 </div>
+
+
+
+

@@ -4,6 +4,4 @@ require_once dirname(__DIR__) . '\function\produits.fn.php';
 
 deleteProduits($bdd);
 
-header('Location: /medicsong/card_produits.php'); 
-
-?>
+header('Location: /medicsong/views/nosproduits.php');
