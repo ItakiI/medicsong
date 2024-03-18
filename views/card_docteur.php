@@ -1,11 +1,11 @@
-<div class="row gap-4 row-cols-2 row-cols-sm-2 row-cols-lg-4 row-cols-xxl-5 w-100 text-center justify-content-center my-5">
 
+<div class="row gap-4 row-cols-2 row-cols-sm-2 row-cols-lg-4 row-cols-xxl-5 w-100 text-center justify-content-center my-5">
 
   <?php
   foreach ($result as $row) {
-
     // affichage des docteurs 
   ?>
+
     <div class="card pt-2 bg-dark-subtle shadow ">
       <img src="<?php echo $row["image"] ?>" class="card-img-top img-thumbnail shadow" alt="docteur-image" />
       <div>
@@ -35,14 +35,13 @@
               <img src="<?php echo $row["signature"] ?>" class=" w-50 h-25 border-bottom-0" alt="Signature du docteur">
             </div>
           </li>
-
         </ul>
-
+          
       </div>
       <div class="card-body d-flex flex-column justify-content-end">
 
         <a href="/medicsong/views/formmodifperso.php?id=<?php echo $row['perso_id'] ?>" class=" btn btn-success my-2 w-100">Modifier</a>
-
+        
         <a href="/medicsong/controller/deleteperso.php?id=<?php echo $row['perso_id'] ?>" class=" btn btn-danger my-2 w-100">Supprimer</a>
       </div>
     </div>
@@ -50,3 +49,4 @@
   }
   ?>
 </div>
+

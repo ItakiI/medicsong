@@ -30,8 +30,8 @@ require_once dirname(__DIR__) . '\components\ban_produit.php';
             <img src="<?php echo $produit["image"] ?>" class="img-fluid shadow rounded-start" alt="...">
             <h5 class="card-title fs-5 text-center mt-3"><?php echo $produit["nom"] ?></h5>
           </div>
-          <div class="col-md-7 bg-dark-subtle rounded-end">
-            <div class="card-body shadow h-100 rounded-end ">
+          <div class="col-md-7 bg-info-subtle">
+            <div class="card-body shadow h-100 ">
 
               <p class="card-text">Prix : <span class="text-danger"><?php echo $produit["prix"] ?></span> €</span>
 
