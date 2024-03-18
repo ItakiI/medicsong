@@ -12,19 +12,19 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end pe-5" id="navbarNavDropdown">
-                <ul class="navbar-nav fw-bold text-center my-3">
+                <ul class="navbar-nav fw-bold text-center my-3 w-100 d-flex justify-content-end">
                     </li>
-                    <li class="nav-item me-4">
-                        <a class="nav-link active" href="/medicsong/index.html.php">ACCEUIL</a>
+                    <li class="nav-item mx-3 rounded-1">
+                        <a class="nav-link active w-100" href="/medicsong/index.html.php">ACCEUIL</a>
                     </li>
-                    <li class="nav-item me-4">
-                        <a class="nav-link active" href="/medicsong/views/admin.php">ADMINISTRATION</a>
+                    <li class="nav-item mx-3 rounded-1">
+                        <a class="nav-link active w-100" href="/medicsong/views/admin.php">ADMINISTRATION</a>
                     </li>
-                    <li class="nav-item me-4">
-                        <a class="nav-link active" href="/medicsong/views/nosproduits.php">NOS PRODUIT</a>
+                    <li class="nav-item mx-3 rounded-1">
+                        <a class="nav-link active w-100" href="/medicsong/views/nosproduits.php">NOS PRODUIT</a>
                     </li>
-                    <li class="nav-item me-4">
-                        <a class="nav-link active" href="/medicsong/views/contact.php">CONTACT</a>
+                    <li class="nav-item mx-3 rounded-1">
+                        <a class="nav-link active w-100" href="/medicsong/views/contact.php">CONTACT</a>
                     </li>
                 </ul>
             </div>

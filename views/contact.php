@@ -1,7 +1,7 @@
 <?php
-require_once dirname(__DIR__) . '/components/head.php';
-require_once dirname(__DIR__) . '/components/header.php';
-require_once dirname(__DIR__) . '/components/ban_contact.php';
+require_once dirname(__DIR__) . '\components\head.php';
+require_once dirname(__DIR__) . '\components\header.php';
+require_once dirname(__DIR__) . '\components\ban_contact.php';
 ?>
 
 <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-0">
@@ -58,4 +58,4 @@ require_once dirname(__DIR__) . '/components/ban_contact.php';
 </div>
 </div>
 
-<?php require_once dirname(__DIR__) . '/components/footer.php'; ?>
+<?php require_once dirname(__DIR__) . '\components\footer.php'; ?>

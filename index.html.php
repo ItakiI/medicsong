@@ -37,7 +37,7 @@ require_once __DIR__ . '/components/banniere.php';
                             et découvrez comment la musique peut transformer votre vie.</p>
                     </div>
                     <div class="">
-                        <a href="/medicsong/views/admin.php" class="card-link btn btn-success d-grid gap-2 col-8 mx-auto">Plus d'inforations.</a>
+                        <a href="/medicsong/views/admin.php" class="card-link btn btn-success d-grid gap-2 col-8 mx-auto hover-btn">Plus d'inforations.</a>
                     </div>
                 </div>
             </div>

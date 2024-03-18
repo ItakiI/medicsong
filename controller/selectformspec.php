@@ -2,7 +2,7 @@
 
 // LISTE des options déroulante
 
-require_once dirname(__DIR__) . '/config/cdb.php';
+require_once dirname(__DIR__) . '\config\cdb.php';
 
 // On récupère tout le contenu de la table spec
 // function getAllSpec(){};

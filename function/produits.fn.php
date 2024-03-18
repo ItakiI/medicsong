@@ -1,5 +1,5 @@
 <?php 
-require_once dirname(__DIR__) . '/config/cdb.php';
+
 function addProduits ($bdd){
 
     // on récupère les infos saisies dans le formulaire formproduits.php
