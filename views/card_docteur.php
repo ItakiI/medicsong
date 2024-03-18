@@ -12,24 +12,24 @@
           <h5 class="card-title fw-bold fs-3">Dr. <span class="fw-normal"><?php echo $row["name"] ?></h5>
         </div>
         <ul class="list-group list-group-flush fs-5 rounded shadow   ">
-          <li class="list-group-item bg-secondary-subtle">
-            <p>Spécialité : <span class="text-success"><?php echo $row["spec"] ?>
+          <li class="px-2 bg-body-secondary rounded-top">
+            <p>Spécialité : <br> <span class="text-success"><?php echo $row["spec"] ?>
                 <hr>
           </li>
-          <li class="list-group-item bg-secondary-subtle ">
+          <li class="px-2  bg-body-secondary ">
             <p class="card-text">Description : <br> <span class="fs-6"><?php echo $row["description"] ?></span>
               <hr>
           </li>
-          <li class="list-group-item bg-secondary-subtle">
+          <li class="px-2  bg-body-secondary">
             <figure>
               <p>Échantillon :</p>
-              <audio class="form-control bg-dark-subtle" controls src="<?php echo $row["echantillon"] ?>">
+              <audio class="px-2 form-control bg-dark-subtle" controls src="<?php echo $row["echantillon"] ?>">
                 <a href="<?php echo $row["echantillon"] ?>">Download audio</a>
               </audio>
             </figure>
           </li>
-          <li class="list-group-item bg-secondary-subtle">
-            <div class="d-flex justify-content-center">
+          <li class="p-2 bg-body-secondary bg-body-secondary">
+            <div class="d-flex justify-content-center bg-body-secondary">
               <img src="<?php echo $row["signature"] ?>" class=" w-50 h-25 border-bottom-0" alt="Signature du docteur">
             </div>
           </li>
