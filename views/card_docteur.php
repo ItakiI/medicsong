@@ -1,11 +1,11 @@
-<div class="row gap-4 row-cols-2 row-cols-sm-2 row-cols-lg-3 row-cols-xxl-5 w-100 text-center justify-content-center my-5">
+<div class="row gap-4 row-cols-2 row-cols-sm-2 row-cols-lg-4 row-cols-xxl-5 w-100 text-center justify-content-center my-5">
 
   <?php
   foreach ($result as $row) {
 
     // affichage des docteurs 
   ?>
-    <div class="card col pt-2 bg-dark-subtle shadow ">
+    <div class="card pt-2 bg-dark-subtle shadow ">
       <img src="<?php echo $row["image"] ?>" class="card-img-top img-thumbnail shadow" alt="docteur-image" />
       <div>
         <div class="card-body">
