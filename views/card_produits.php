@@ -24,8 +24,8 @@ require_once dirname(__DIR__) . '\components\ban_produit.php';
 
       // affichage des docteurs 
   ?>
-      <div class="card mb-3 shadow px-0 rounded" style="max-width: 540px;">
-        <div class="row g-0 justify-content-center shadow h-100 rounded">
+      <div class="card mb-3 shadow px-0 rounded bg-body-secondary" style="max-width: 540px;">
+        <div class="row g-0 justify-content-center shadow h-100 bg-body-secondary rounded">
           <div class=" p-3 col-md-5 d-flex flex-column justify-content-center bg-dark-subtle shadow rounded-start">
             <img src="<?php echo $produit["image"] ?>" class="img-fluid shadow rounded-start" alt="...">
             <h5 class="card-title fs-5 text-center mt-3"><?php echo $produit["nom"] ?></h5>
