@@ -25,13 +25,13 @@ require_once dirname(__DIR__) . '\components\ban_produit.php';
       // affichage des docteurs 
   ?>
       <div class="card mb-3 shadow px-0" style="max-width: 540px;">
-        <div class="row g-0 justify-content-center shadow">
-          <div class=" p-3 col-md-5 d-flex flex-column justify-content-center bg-dark-subtle shadow ">
+        <div class="row g-0 justify-content-center shadow h-100">
+          <div class=" p-3 col-md-5 d-flex flex-column justify-content-center bg-info-subtle shadow ">
             <img src="<?php echo $produit["image"] ?>" class="img-fluid rounded-start shadow shadow" alt="...">
             <h5 class="card-title fs-5 text-center mt-3"><?php echo $produit["nom"] ?></h5>
           </div>
-          <div class="col-md-7 bg-secondary-subtle ">
-            <div class="card-body shadow  ">
+          <div class="col-md-7 bg-info-subtle">
+            <div class="card-body shadow h-100 ">
 
               <p class="card-text">Prix : <span class="text-danger"><?php echo $produit["prix"] ?></span> €</span>
 

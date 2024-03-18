@@ -1,6 +1,6 @@
 OBJECTIF :
 
-Projet en cour... à rendre le Lundi 18 + présentation en présentiel.
+Projet en cour... à rendre le Lundi 18 + présentation en présentiel. 
 création de slider / zoning / warframe (si possible).
 Laissez vos commentaire pour des ajouts ou idée qui son d'ordre URGENT ou OPTION
 /!\ ATTENTION /!\ pour des fonctionnalitées à vérifié.
