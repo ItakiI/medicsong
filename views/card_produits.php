@@ -61,5 +61,3 @@ require_once dirname(__DIR__) . '\components\ban_produit.php';
 
 <?php require_once dirname(__DIR__) . '\components\footer.php'; ?>
 
-
-<?php
