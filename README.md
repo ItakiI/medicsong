@@ -11,7 +11,7 @@ Laissez vos commentaire pour des ajouts ou idée qui son d'ordre URGENT ou OPTIO
 /!\ ATTENTION /!\ pour des fonctionnalitées à vérifié.
 
 
-**2. URGENT :**
+***2. URGENT :***
 
 LIENS (url / redirection etc...) fonctionnel
 Création d'un page admin / compte
