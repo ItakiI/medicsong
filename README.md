@@ -25,6 +25,5 @@ Formulaire de contact fonctionnel (qui envoi bien le mail!)
 ajout de MP3 pour autre docteur
 
 
-/!\ ATTENTION /!\:
-
+**/!\ ATTENTION /!\:**
 Vérifier lien de la NAVBAR (logo pour index) / PRODUIT / CONTACT.
