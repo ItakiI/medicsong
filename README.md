@@ -1,6 +1,6 @@
 # Création d’un site web dynamique qui interagit avec une base de données relationnelle en PHP
 
-En tant que développeur Fullstack, création d'une base de données Création de composants d'accès aux données Création de composants réutilisable
+**En tant que développeur Fullstack, création d'une base de données Création de composants d'accès aux données Création de composants réutilisable**
 
 
 ## OBJECTIF :
