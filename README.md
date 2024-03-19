@@ -10,7 +10,7 @@ création de slider / zoning / warframe (si possible).
 Laissez vos commentaire pour des ajouts ou idée qui son d'ordre URGENT ou OPTION
 /!\ ATTENTION /!\ pour des fonctionnalitées à vérifié.
 
---------------------------------------------------------------------------------------------
+
 **2. URGENT :**
 
 LIENS (url / redirection etc...) fonctionnel
@@ -18,13 +18,13 @@ Création d'un page admin / compte
 Responsivité de la page (desktop / tablette / mobile)
 Réduire taille card
 
---------------------------------------------------------------------------------------------
+
 **3. OPTION :**
 
 Formulaire de contact fonctionnel (qui envoi bien le mail!)
 ajout de MP3 pour autre docteur
 
---------------------------------------------------------------------------------------------
+
 /!\ ATTENTION /!\:
 
 Vérifier lien de la NAVBAR (logo pour index) / PRODUIT / CONTACT.
