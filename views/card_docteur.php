@@ -1,4 +1,3 @@
-
 <div class="row gap-4 row-cols-2 row-cols-sm-2 row-cols-lg-4 row-cols-xxl-5 w-100 text-center justify-content-center my-5">
 
   <?php
@@ -6,8 +5,8 @@
     // affichage des docteurs 
   ?>
 
-    <div class="card pt-2 bg-dark-subtle shadow ">
-      <img src="<?php echo $row["image"] ?>" class="card-img-top img-thumbnail shadow" alt="docteur-image" />
+    <div class="card pt-2 bg-dark-subtle shadow">
+      <img src="<?php echo $row["image"] ?>" class="card-img-top object-fit-scale h-auto " style="max-height: 300px;" alt="docteur-image" />
       <div>
         <div class="card-body">
           <h5 class="card-title fw-bold fs-3">Dr. <span class="fw-normal"><?php echo $row["name"] ?></h5>
@@ -36,12 +35,12 @@
             </div>
           </li>
         </ul>
-          
+
       </div>
       <div class="card-body d-flex flex-column justify-content-end">
 
         <a href="/medicsong/views/formmodifperso.php?id=<?php echo $row['perso_id'] ?>" class=" btn btn-success my-2 w-100">Modifier</a>
-        
+
         <a href="/medicsong/controller/deleteperso.php?id=<?php echo $row['perso_id'] ?>" class=" btn btn-danger my-2 w-100">Supprimer</a>
       </div>
     </div>
@@ -49,4 +48,3 @@
   }
   ?>
 </div>
-
