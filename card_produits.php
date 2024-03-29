@@ -36,7 +36,7 @@ require_once __DIR__ . '/components/ban_produit.php';
           <h5 class="card-title text-center fs-6"><?php echo $produit["nom"] ?></h5>
           <p class="fs-6">Prix : <?php echo $produit["prix"] ?>€<br>
           Stock : <?php echo $produit["stock"] ?><br>
-          Vendu : <?php echo $produit["vendu"] ?><br>
+          Vendu : <?php echo $produit["vendu"] ?><br> 
           Titre : <br><?php echo $produit["titre"] ?><br>
           Titre : <br><?php echo $produit["titre_1"] ?><br>
           Titre : <br><?php echo $produit["titre_2"] ?></p>

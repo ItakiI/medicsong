@@ -96,33 +96,31 @@ h2 {
 
 .a {
   margin-left: 3rem;
+  margin-bottom: 20%;
 }
 
 .b {
   display: block;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-right: 5%;
 }
 
 .slogan {
   font-family: 'beau rivage';
   color: white;
-  font-size: 3em;
-  font-weight: 100;
+  font-size: 1em;
+  /* font-weight: 100; */
   text-shadow: 1px 1px 2px rgb(210, 6, 6), 0 0 1em blue, 0 0 0.2em blue;
 }
 
-#present {
+/* #present {
   display: flex;
   justify-content: center;
   margin-top: 8rem;
   margin-bottom: 5rem;
-}
+} */
 
 .presentation {
-  margin-left: 15%;
-  margin-right: 15%;
-  font-size: 2em;
   font-family: "pacifico";
 }
 
@@ -182,7 +180,6 @@ audio {
   grid-template-rows: max-content 120px 1fr;
   border: 2px solid black;
   font-family: 'pacifico';
-  font-size: medium;
   background-color: rgb(42, 98, 80);
 }
 
@@ -205,7 +202,6 @@ audio {
 
 .card p {
   text-align: center;
-  font-size: 125%;
 }
 
 
