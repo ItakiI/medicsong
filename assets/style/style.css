@@ -9,14 +9,43 @@
 }
 
 /* fond */
-
 body {
   background-color: rgb(179, 147, 98) !important;
 }
 
+/* BANNIERE */
+.img_bann_inscrip {
+  object-fit: cover;  
+  object-position: 0% 62% !important;
+  border-bottom: 2px solid black;
+}
+
+.img_bann_contact {
+  object-fit: cover;  
+  object-position: 0% 19% !important;
+  border-bottom: 2px solid black;
+}
+
+.banner img {
+  object-fit: cover;  
+  border-bottom: 2px solid black;
+}
+
+.img_bann_index {
+  object-fit: cover;  
+  object-position: 0% 40% !important;
+  border-bottom: 2px solid black;
+}
+
+.ban_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-position-y: 45%;
+  height: 65vh;
+}
 
 /* Navbar + logo + ul*/
-
 #logo1 {
   width: 15vh;
   margin-top: 1rem;
@@ -46,20 +75,13 @@ ul {
 .nav-title {
   font-family: 'Faster one';
   color: white;
-  font-size: 2.2em;
+  font-size: 2.2em; 
   font-weight: 400;
 }
 
 .navUl {
   display: flex;
   align-items: center;
-}
-
-.navbar-nav li {
-  /* width: 10rem; */
-  font-size: calc(0.5rem + 0.7vmax) !important;
-  /* font-family: 'pacifico' !important; */
-
 }
 
 a {
@@ -72,22 +94,7 @@ a:hover {
   color: black;
 }
 
-/* banniere */
-
-.ban {
-  background-image: url(assets/img/ban-modif.gif);
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  align-content: stretch;
-  background-position-y: 45%;
-  background-size: cover;
-  height: 65vh;
-}
-
 /* Titre de la baniére */
-
 h2 {
   font-family: "pacifico";
   font-size: 3em;
@@ -109,23 +116,15 @@ h2 {
   font-family: 'beau rivage';
   color: white;
   font-size: 1em;
-  /* font-weight: 100; */
   text-shadow: 1px 1px 2px rgb(210, 6, 6), 0 0 1em blue, 0 0 0.2em blue;
 }
 
-/* #present {
-  display: flex;
-  justify-content: center;
-  margin-top: 8rem;
-  margin-bottom: 5rem;
-} */
 
 .presentation {
   font-family: "pacifico";
 }
 
 /* Nos Produits */
-
 #title {
   display: flex;
   justify-content: center;
@@ -134,7 +133,6 @@ h2 {
 }
 
 /* image ordonance */
-
 .ordon {
   display: flex;
   justify-content: space-around;
@@ -149,7 +147,6 @@ h2 {
 }
 
 /* musiques */
-
 figcaption {
   font-family: "pacifico";
   display: flex;
@@ -169,7 +166,6 @@ audio {
 }
 
 /* cards docteur, avec description dessous */
-
 .cards {
   display: flex;
   justify-content: space-around;
@@ -181,13 +177,6 @@ audio {
   border: 2px solid black;
   font-family: 'pacifico';
   background-color: rgb(42, 98, 80);
-}
-
-.banner img {
-  object-fit: cover;
-  width: 450px;
-  height: 650px;
-  border-bottom: 2px solid black;
 }
 
 .content {
@@ -204,9 +193,7 @@ audio {
   text-align: center;
 }
 
-
 /* barre footer */
-
 .foot {
   display: flex;
   flex-direction: row;
@@ -227,7 +214,6 @@ audio {
 
 #icon1 {
   display: flex;
-
 }
 
 #icon1 li {
@@ -247,11 +233,7 @@ audio {
   letter-spacing: 2px;
 }
 
-
-
 /************************ CSS PAGE DE CONTACT ************************/
-
-
 
 .afin {
   font-family: 'pacifico';
@@ -262,11 +244,9 @@ audio {
 }
 
 /* formulaire de contact */
-
 form {
 
   /* Le contour du formulaire */
-
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -275,12 +255,10 @@ form {
   border-radius: 1em;
 
   /* On centre le formulaire */
-
   margin: auto;
   margin-top: 4%;
   color: rgb(42, 98, 80);
 }
-
 
 #form {
   list-style: none;
@@ -303,7 +281,6 @@ form li+li {
 }
 
 /* Titres des cases */
-
 label {
   display: flex;
   justify-content: center;
@@ -356,7 +333,6 @@ button {
   font-family: 'pacifico';
   margin-top: 10%;
   font-size: 1.5rem;
-  /* width: 500px;  */
   border: none;
   border-radius: 5px;
   padding: 1rem;
