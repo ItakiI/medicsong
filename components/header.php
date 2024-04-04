@@ -12,7 +12,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end pe-5" id="navbarNavDropdown">
-                <ul class="navbar-nav fw-bold text-center my-3 fs-6 d-flex justify-content-end">
+                <ul class="navbar-nav fw-bold text-center my-3 d-flex justify-content-end">
                     </li>
                     <li class="nav-item mx-3 rounded-1">
                         <a class="nav-link active fs-6" href="/medicsong/index.html.php">ACCUEIL</a>
@@ -26,6 +26,15 @@
                     <li class="nav-item mx-3 rounded-1">
                         <a class="nav-link active fs-6" href="/medicsong/views/contact.php">CONTACT</a>
                     </li>
+                    <div class="nav-item mx-3 rounded-1 align-items-center">
+                        <li class="nav-item mx-3 rounded-1">
+                            <a class="nav-link active m-0 p-0 b-0 g-0" href="/medicsong/views/connexion.php" style="font-size: 13px;">CONNEXION</a>
+                        </li>
+                        <hr class="m-0 p-0 b-0 g-0">
+                        <li class="nav-item mx-3 rounded-1">
+                            <a class="nav-link active m-0 p-0 b-0 g-0 " href="/medicsong/views/inscription.php" style="font-size: 13px;">INSCRIPTION</a>
+                        </li>
+                    </div>
                 </ul>
             </div>
         </div>
