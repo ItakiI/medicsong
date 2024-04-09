@@ -35,7 +35,6 @@ function connexion($bdd, $email, $pass)
     $stmt->execute(['email' => $email]);
     $utilisateur = $stmt->fetch();
     if ($utilisateur && password_verify($pass, $utilisateur['pass'])) {
-        var_dump($utilisateur);
         return $utilisateur;
     } else {
         return false;
