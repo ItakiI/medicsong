@@ -19,7 +19,7 @@
                 <div class="col-md-7">
                     <div class="card-body">
                         <h5 class="fs-4">La Dream Team de la Santé par la Musique.</h5>
-                        <p class="fs-5">Découvrez la crème de la crème des guérisseurs modernes au sein de Médic'Song !<br>
+                        <p class="fs-6">Découvrez la crème de la crème des guérisseurs modernes au sein de Médic'Song !<br>
                             Notre équipe diversifiée de médecins rockstars est là pour vous offrir une guérison complète et sans compromis.<br>
                             Des spécialistes renommés dans leurs domaines respectifs, chacun apportant son expertise unique pour vous aider à surmonter les défis
                             de la santé physique et mentale. Cliquez sur le lien pour en savoir plus sur chaque membre de notre équipe
