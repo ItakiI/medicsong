@@ -46,6 +46,10 @@
 
 </footer>
 
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="../validation.js"></script>
+
+
 </body>
 
 </html>
