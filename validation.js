@@ -1,6 +1,3 @@
-//Gestion du Regex dans le formulaire de contact par Max la Menace
-//Dans un premier temps nous allons récupèrer les valeurs de chaque input du formulaire de contact
-
 const userName = document.getElementById("name");
 const userEmail = document.querySelector ("#mail");
 const userMessage = document.querySelector("#msg");
@@ -38,7 +35,7 @@ function addClass(input , regex , value) {
 
 //Nous allons faire les écouteurs d'événement permettant d'écouter les événnements lorsque l'utilisateur rentre une donnée dans les inputs
 
-userName.addEventListener("input", (e)=> {
+userName?.addEventListener("input", (e)=> {
     addClass(userName, UserRegex, e.target.value);
     if (userName.classList.contains("is-valid")) {
         nameValid = true;
@@ -47,7 +44,7 @@ userName.addEventListener("input", (e)=> {
     }
 });
 
-userEmail.addEventListener("input", (e)=> {
+userEmail?.addEventListener("input", (e)=> {
     addClass(userEmail, EmailRegex,  e.target.value);
     if (userEmail.classList.contains("is-valid")) {
         emailValid = true;
@@ -56,7 +53,7 @@ userEmail.addEventListener("input", (e)=> {
     }
 });
 
-userMessage.addEventListener("input", (e)=> {
+userMessage?.addEventListener("input", (e)=> {
     addClass(userMessage, MessageRegex, e.target.value);
     if (userMessage.classList.contains("is-valid")) {
         messageValid = true;
@@ -70,7 +67,7 @@ userMessage.addEventListener("input", (e)=> {
 const form = document.querySelector('#formID');
 
 //On initie la fonction qui permettra d'écouter l'événement submit, lorsque l'utilisateur soumettra le formulaire
-form.addEventListener("submit", (e)=>{
+form?.addEventListener("submit", (e)=>{
     //on bloque la soumission automatique du formulaire
     e.preventDefault();
 

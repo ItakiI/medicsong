@@ -14,7 +14,7 @@
 
         <ul class="list-group list-group-flush fs-5 rounded shadow   ">
           <li class="px-2 bg-body-secondary rounded-top">
-            <p>Spécialité : <br> <span class="text-success"><?php echo $row["spec"] ?>
+            <p>Spécialité : <br> <span class="text-dark"><?php echo $row["spec"] ?>
                 <hr>
           </li>
           <li class="px-2  bg-body-secondary ">
@@ -39,9 +39,9 @@
       </div>
       <div class="card-body d-flex flex-column justify-content-end">
 
-        <a href="/medicsong/views/formmodifperso.php?id=<?php echo $row['perso_id'] ?>" class=" btn btn-success my-2 w-100">Modifier</a>
+        <a href="/medicsong/views/formmodifperso.php?id=<?php echo $row['perso_id'] ?>" class=" btn btn-success my-2 w-100" style="background-color: rgb(2, 128, 144);">Modifier</a>
 
-        <a href="/medicsong/controller/deleteperso.php?id=<?php echo $row['perso_id'] ?>" class=" btn btn-danger my-2 w-100">Supprimer</a>
+        <a href="/medicsong/controller/deleteperso.php?id=<?php echo $row['perso_id'] ?>" class=" btn btn-danger my-2 w-100" style="background-color: rgb(2, 128, 144);">Supprimer</a>
       </div>
     </div>
   <?php

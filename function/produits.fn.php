@@ -75,7 +75,7 @@ function updateProduits($bdd) {
         }
         if ($titre2 !== null) {
             $updateFields[] = "`titre_2` = :titre2";
-        }
+        } 
         // Vérifier si au moins un champ est modifié
         if (!empty($updateFields)) {
             $sql .= implode(", ", $updateFields);
