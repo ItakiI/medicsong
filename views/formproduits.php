@@ -1,7 +1,7 @@
 <?php
-require_once dirname(__DIR__) . '\config\cdb.php';
-require_once dirname(__DIR__) . '\components\head.php';
-require_once dirname(__DIR__) . '\components\header.php';
+require_once dirname(__DIR__) . '/config/cdb.php';
+require_once dirname(__DIR__) . '/components/head.php';
+require_once dirname(__DIR__) . '/components/header.php';
 
 
 ?>
@@ -50,4 +50,4 @@ require_once dirname(__DIR__) . '\components\header.php';
 
 
 
-<?php require_once dirname(__DIR__) . '\components\footer.php'; ?>
+<?php require_once dirname(__DIR__) . '/components/footer.php'; ?>

@@ -1,7 +1,7 @@
 <?php
-require_once dirname(__DIR__) . '\components\head.php';
-require_once dirname(__DIR__) . '\components\header.php';
-require_once dirname(__DIR__) . '\components\ban_produit.php';
+require_once dirname(__DIR__) . '/components/head.php';
+require_once dirname(__DIR__) . '/components/header.php';
+require_once dirname(__DIR__) . '/components/ban_produit.php';
 ?>
 
 <div id="carouselExampleControlsNoTouching" class="carousel slide w-25 m-25 container mt-5 mb-5" data-bs-touch="false">
@@ -27,6 +27,6 @@ require_once dirname(__DIR__) . '\components\ban_produit.php';
 </div>
 
 <?php 
-require_once dirname(__DIR__) . '\views\card_produits_user.php'; 
-require_once dirname(__DIR__) . '\components\footer.php'; 
+require_once dirname(__DIR__) . '/views/card_produits_user.php'; 
+require_once dirname(__DIR__) . '/components/footer.php'; 
 ?>

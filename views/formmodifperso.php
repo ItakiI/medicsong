@@ -1,7 +1,7 @@
 <?php 
-require_once dirname(__DIR__) . '\config\cdb.php';
-require_once dirname(__DIR__) . '\components\head.php'; 
-require_once dirname(__DIR__) . '\components\header.php';
+require_once dirname(__DIR__) . '/config/cdb.php';
+require_once dirname(__DIR__) . '/components/head.php'; 
+require_once dirname(__DIR__) . '/components/header.php';
 ?>
 
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 justify-content-center g-0">
@@ -30,7 +30,7 @@ require_once dirname(__DIR__) . '\components\header.php';
 
 
 <?php 
-require_once dirname(__DIR__) . '\components\footer.php';
+require_once dirname(__DIR__) . '/components/footer.php';
  ?>
 
 

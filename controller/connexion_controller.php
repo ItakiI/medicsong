@@ -14,7 +14,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($_SESSION['role'] == 'admin') {
             header("Location: index.html.php");
         } else {
-            header("Location: medicsong/index.html.php");
+
+            header('Location: index.html.php');
+
         }
         exit();
     } else {

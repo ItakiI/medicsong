@@ -1,10 +1,10 @@
 <?php
 
-require_once dirname(__DIR__) . '\config\cdb.php';
-require_once dirname(__DIR__) . '\function\produits.fn.php';
-require_once dirname(__DIR__) . '\components\head.php';
-require_once dirname(__DIR__) . '\components\header.php';
-require_once dirname(__DIR__) . '\components\ban_produit.php';
+require_once dirname(__DIR__) . '/config/cdb.php';
+require_once dirname(__DIR__) . '/function/produits.fn.php';
+require_once dirname(__DIR__) . '/components/head.php';
+require_once dirname(__DIR__) . '/components/header.php';
+require_once dirname(__DIR__) . '/components/ban_produit.php';
 
 ?>
 
@@ -52,4 +52,4 @@ require_once dirname(__DIR__) . '\components\ban_produit.php';
 
 </div>
 
-<?php require_once dirname(__DIR__) . '\components\footer.php'; ?>
+<?php require_once dirname(__DIR__) . '/components/footer.php'; ?>
