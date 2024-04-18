@@ -13,7 +13,7 @@
     <div class="card text-center border-0 bg-transparent mb-3" style="max-width: 100%;">
         <div class="row d-flex justify-content-evenly align-item-center g-0 m-0 b-0 p-0">
             <div class="col-lg-6 d-flex justify-content-evenly align-items-center border-start-0">
-                <img src="assets\img\logo_medecin.gif" class="g-0 w-auto rounded-start border-bottom-0" style="height: 500px;">
+                <img src="assets/img/logo_medecin.gif" class="g-0 w-auto rounded-start border-bottom-0" style="height: 500px;">
             </div>
             <div class="col-lg-6 d-flex justify-content-evenly align-item-center align-self-center">
                 <div class="col-md-7">

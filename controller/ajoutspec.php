@@ -1,6 +1,6 @@
 <?php
 
-require_once dirname(__DIR__) .  '\config\cdb.php';
+require_once dirname(__DIR__) .  '/config/cdb.php';
 
 function ajoutSpec($bdd) {
 

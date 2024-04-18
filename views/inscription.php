@@ -1,12 +1,12 @@
 <?php
-session_start();
+// session_start();
 
-require_once dirname(__DIR__) . '\config\cdb.php';
-require_once dirname(__DIR__) . '\function\membre.fn.php';
-require_once dirname(__DIR__) . '\components\head.php';
-require_once dirname(__DIR__) . '\components\header.php';
-require_once dirname(__DIR__) . '\components\ban_inscription.php';
-require_once dirname(__DIR__) . '\controller\inscription_controller.php';
+require_once dirname(__DIR__) . '/config/cdb.php';
+require_once dirname(__DIR__) . '/function/membre.fn.php';
+require_once dirname(__DIR__) . '/components/head.php';
+require_once dirname(__DIR__) . '/components/header.php';
+require_once dirname(__DIR__) . '/components/ban_inscription.php';
+require_once dirname(__DIR__) . '/controller/inscription_controller.php';
 
 ?>
 
@@ -61,5 +61,5 @@ require_once dirname(__DIR__) . '\controller\inscription_controller.php';
 </div>
 
 <?php 
-require_once dirname(__DIR__) . '\components\footer.php'; 
+require_once dirname(__DIR__) . '/components/footer.php'; 
 ?>
