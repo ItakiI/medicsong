@@ -1,13 +1,15 @@
 <?php
 
+
 // navbar pour un simple visiteur
-function navUsers() {
+function navUsers()
+{
 ?>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-success p-0 border-black border-bottom">
-            <div class="container-fluid d-flex justify-content-between bg-success">
+        <nav class="navbar navbar-expand-lg p-0 border-black border-bottom">
+            <div class="container-fluid d-flex justify-content-between" style="background-color: rgb(2, 128, 144);">
                 <div class=" d-flex align-items-center flex-wrap">
-                    <a class="navbar-brand" href="/medicsong/index.html.php"><img src="/medicsong/assets/img/vinnylmedico.png" alt="MedicSong" width="80" height="80">
+                    <a class="navbar-brand" href="/medicsong/index.html.php"><img src="/medicsong/assets/img/vinnylmedico.webp" alt="MedicSong" width="80" height="80">
                     </a>
                     <a class="nav-title text-black text-decoration-none" href="/medicsong/index.html.php">
                         Medicsong
@@ -20,27 +22,31 @@ function navUsers() {
                     <ul class="navbar-nav fw-bold text-center my-3 d-flex justify-content-end align-items-center">
                         </li>
                         <li class="nav-item mx-3 rounded-1">
-                            <a class="nav-link active fs-6" href="/medicsong/index.html.php">ACCUEIL</a>
+                            <a class="nav-link active fs-6 text-white " href="/medicsong/index.html.php">ACCUEIL</a>
                         </li>
                         <li class="nav-item mx-3 rounded-1">
-                            <a class="nav-link active fs-6" href="/medicsong/views/nos_specialiste.php">NOS SPÉCIALISTES</a>
+                            <a class="nav-link active fs-6 text-white " href="/medicsong/views/nos_specialiste.php">NOS SPÉCIALISTES</a>
                         </li>
                         <li class="nav-item mx-3 rounded-1">
-                            <a class="nav-link active fs-6" href="/medicsong/views/nosproduits_user.php">NOS PRODUITS</a>
+                            <a class="nav-link active fs-6 text-white " href="/medicsong/views/nosproduits_user.php">NOS PRODUITS</a>
                         </li>
                         <li class="nav-item mx-3 rounded-1">
-                            <a class="nav-link active fs-6" href="/medicsong/views/contact.php">CONTACT</a>
+                            <a class="nav-link active fs-6 text-white " href="/medicsong/views/contact.php">CONTACT</a>
                         </li>
-                        <div class="nav-item mx-3 rounded-1 align-items-center">
-                            <li class="nav-item mx-3 rounded-1">
-                                <a class="nav-link active m-0 p-0 b-0 g-0" href="/medicsong/views/connexion.php" style="font-size: 13px;">CONNEXION</a>
-                            </li>
-                            <hr class="m-0 p-0 b-0 g-0">
-                            <li class="nav-item mx-3 rounded-1">
-                                <a class="nav-link active m-0 p-0 b-0 g-0 " href="/medicsong/views/inscription.php" style="font-size: 13px;">INSCRIPTION</a>
-                            </li>
-                        </div>
                     </ul>
+                    <div class="nav-item mx-3 rounded-1 align-items-center">
+                        <ul class="m-0 b-0 p-0 g-0">
+                            <li class="nav-item mx-3 rounded-1">
+                                <a class="nav-link active m-0 p-0 b-0 g-0 fw-bold text-white " href="/medicsong/views/connexion.php" style="font-size: 13px;">CONNEXION</a>
+                            </li>
+                        </ul>
+                        <hr class="m-0 p-0 b-0 g-0">
+                        <ul class="m-0 b-0 p-0 g-0">
+                            <li class="nav-item mx-3 rounded-1">
+                                <a class="nav-link active m-0 p-0 b-0 g-0 fw-bold text-white " href="/medicsong/views/inscription.php" style="font-size: 13px;">INSCRIPTION</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -50,22 +56,22 @@ function navUsers() {
 }
 
 // navbar pour un visiteur connecté
-function navUsersConnect() 
+function navUsersConnect()
 {
 
-// Vérification si l'utilisateur est connecté et que le pseudo est disponible dans la session
-if (isset($_SESSION['pseudo'])) {
-    $pseudo = $_SESSION['pseudo'];
-} else {
-    // Gérez le cas où l'utilisateur n'est pas connecté ou le pseudo n'est pas disponible
-    $pseudo = "Utilisateur";
-}
-?>    
+    // Vérification si l'utilisateur est connecté et que le pseudo est disponible dans la session
+    if (isset($_SESSION['pseudo'])) {
+        $pseudo = $_SESSION['pseudo'];
+    } else {
+        // Gérez le cas où l'utilisateur n'est pas connecté ou le pseudo n'est pas disponible
+        $pseudo = "utilisateur";
+    }
+?>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-success p-0 border-black border-bottom">
-            <div class="container-fluid d-flex justify-content-between bg-success">
+        <nav class="navbar navbar-expand-lg p-0 border-black border-bottom">
+            <div class="container-fluid d-flex justify-content-between" style="background-color: rgb(2, 128, 144);">
                 <div class=" d-flex align-items-center flex-wrap">
-                    <a class="navbar-brand" href="/medicsong/index.html.php"><img src="/medicsong/assets/img/vinnylmedico.png" alt="MedicSong" width="80" height="80">
+                    <a class="navbar-brand" href="/medicsong/index.html.php"><img src="/medicsong/assets/img/vinnylmedico.webp" alt="MedicSong" width="80" height="80">
                     </a>
                     <a class="nav-title text-black text-decoration-none" href="/medicsong/index.html.php">
                         Medicsong
@@ -76,30 +82,33 @@ if (isset($_SESSION['pseudo'])) {
                 </button>
                 <div class="collapse navbar-collapse justify-content-end pe-5" id="navbarNavDropdown">
                     <ul class="navbar-nav fw-bold text-center my-3 d-flex justify-content-end align-items-center">
-                        </li>
                         <li class="nav-item mx-3 rounded-1">
                             <a class="nav-link active fs-6" href="/medicsong/index.html.php">ACCUEIL</a>
                         </li>
                         <li class="nav-item mx-3 rounded-1">
                             <a class="nav-link active fs-6" href="/medicsong/views/nos_specialiste.php">NOS SPÉCIALISTES</a>
-                            </li>
+                        </li>
                         <li class="nav-item mx-3 rounded-1">
                             <a class="nav-link active fs-6" href="/medicsong/views/nosproduits_user.php">NOS PRODUITS</a>
                         </li>
                         <li class="nav-item mx-3 rounded-1">
                             <a class="nav-link active fs-6" href="/medicsong/views/contact.php">CONTACT</a>
                         </li>
-                        <div class="nav-item mx-3 rounded-1 align-items-center">
+                    </ul>
+                    <div class="nav-item mx-3 rounded-1 align-items-center">
+                        <ul>
                             <li class="nav-item mx-3 rounded-1">
                                 <p class="mb-0" style="font-size: 8px;">WELCOME</p>
                                 <p style="font-size: 13px;"><?php echo $pseudo ?></p>
                             </li>
-                            <hr class="m-0 p-0 b-0 g-0">
+                        </ul>
+                        <hr class="m-0 p-0 b-0 g-0">
+                        <ul>
                             <li class="nav-item mx-3 rounded-1">
                                 <a class="nav-link active m-0 p-0 b-0 g-0 " href="/medicsong/controller/deco_controller.php" style="font-size: 13px;">DÉCONNEXION</a>
                             </li>
-                        </div>
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -109,21 +118,22 @@ if (isset($_SESSION['pseudo'])) {
 }
 
 // navbar pour un administrateur connecté
-function navAdminConnect() {
+function navAdminConnect()
+{
 
-// Vérification si l'utilisateur est connecté et que le pseudo est disponible dans la session
-if (isset($_SESSION['pseudo'])) {
-    $pseudo = $_SESSION['pseudo'];
-} else {
-    // Gérez le cas où l'utilisateur n'est pas connecté ou le pseudo n'est pas disponible
-    $pseudo = "Utilisateur";
-}
+    // Vérification si l'utilisateur est connecté et que le pseudo est disponible dans la session
+    if (isset($_SESSION['pseudo'])) {
+        $pseudo = $_SESSION['pseudo'];
+    } else {
+        // Gérez le cas où l'utilisateur n'est pas connecté ou le pseudo n'est pas disponible
+        $pseudo = "utilisateur";
+    }
 ?>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-success p-0 border-black border-bottom">
-            <div class="container-fluid d-flex justify-content-between bg-success">
+        <nav class="navbar navbar-expand-lg p-0 border-black border-bottom">
+            <div class="container-fluid d-flex justify-content-between" style="background-color: rgb(2, 128, 144);">
                 <div class=" d-flex align-items-center flex-wrap">
-                    <a class="navbar-brand" href="/medicsong/index.html.php"><img src="/medicsong/assets/img/vinnylmedico.png" alt="MedicSong" width="80" height="80">
+                    <a class="navbar-brand" href="/medicsong/index.html.php"><img src="/medicsong/assets/img/vinnylmedico.webp" alt="MedicSong" width="80" height="80">
                     </a>
                     <a class="nav-title text-black text-decoration-none" href="/medicsong/index.html.php">
                         Medicsong
@@ -134,7 +144,6 @@ if (isset($_SESSION['pseudo'])) {
                 </button>
                 <div class="collapse navbar-collapse justify-content-end pe-5" id="navbarNavDropdown">
                     <ul class="navbar-nav fw-bold text-center my-3 d-flex justify-content-end align-items-center">
-                        </li>
                         <li class="nav-item mx-3 rounded-1">
                             <a class="nav-link active fs-6" href="/medicsong/index.html.php">ACCUEIL</a>
                         </li>
@@ -147,17 +156,21 @@ if (isset($_SESSION['pseudo'])) {
                         <li class="nav-item mx-3 rounded-1">
                             <a class="nav-link active fs-6" href="/medicsong/views/contact.php">CONTACT</a>
                         </li>
-                        <div class="nav-item mx-3 rounded-1 align-items-center">
+                    </ul>
+                    <div class="nav-item mx-3 rounded-1 align-items-center">
+                        <ul>
                             <li class="nav-item mx-3 rounded-1">
                                 <p class="mb-0" style="font-size: 8px;">WELCOME</p>
                                 <p style="font-size: 13px;"><?php echo $pseudo ?></p>
                             </li>
-                            <hr class="m-0 p-0 b-0 g-0">
+                        </ul>
+                        <hr class="m-0 p-0 b-0 g-0">
+                        <ul>
                             <li class="nav-item mx-3 rounded-1">
                                 <a class="nav-link active m-0 p-0 b-0 g-0 " href="/medicsong/controller/deco_controller.php" style="font-size: 13px;">DÉCONNEXION</a>
                             </li>
-                        </div>
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>

@@ -27,9 +27,9 @@ require_once dirname(__DIR__) . '/components/ban_list_doc.php';
 
 <!-- Boutons d'ajouts des Docteurs, des produits, des specialités -->
 <div class="d-flex justify-content-around m-5 flex-wrap gap-3 ">
-  <a href="/medicsong/views/formperso.php" class="card-link btn btn-success btn-lg fw-bold  hover-btn">Ajouter un Médecin</a>
-  <a href="/medicsong/views/formproduits.php" class="card-link btn btn-success btn-lg fw-bold  hover-btn">Ajouter un Produit</a>
-  <a href="/medicsong/views/formspec.php" class="card-link btn btn-success btn-lg fw-bold  hover-btn">Ajouter une Specialité</a>
+  <a href="/medicsong/views/formperso.php" class="card-link btn btn-success btn-lg fw-bold  hover-btn" style="background-color: rgb(2, 128, 144);">Ajouter un Médecin</a>
+  <a href="/medicsong/views/formproduits.php" class="card-link btn btn-success btn-lg fw-bold  hover-btn" style="background-color: rgb(2, 128, 144);">Ajouter un Produit</a>
+  <a href="/medicsong/views/formspec.php" class="card-link btn btn-success btn-lg fw-bold  hover-btn" style="background-color: rgb(2, 128, 144);">Ajouter une Specialité</a>
 </div>
 
 <hr class="m-5 mb-0 mt-0 p-0 b-0 g-0">

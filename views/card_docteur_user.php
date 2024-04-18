@@ -14,7 +14,7 @@
 
         <ul class="list-group list-group-flush fs-5 rounded shadow   ">
           <li class="px-2 bg-body-secondary rounded-top">
-            <p>Spécialité : <br> <span class="text-success"><?php echo $row["spec"] ?>
+            <p>Spécialité : <br> <span class="text-dark"><?php echo $row["spec"] ?>
                 <hr>
           </li>
           <li class="px-2  bg-body-secondary ">

@@ -9,13 +9,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($utilisateur) {
         $_SESSION['id'] = $utilisateur['id'];
         $_SESSION['role'] = $utilisateur['role'];
-        $_SESSION['pseudo'] = $utilisateur['pseudo'];
+        $_SESSION['pseudo'] = $utilisateur['pseudo']; 
 
-        if ($_SESSION['role'] === 'admin') {
-            header('Location: admin.php');
-           
+        if ($_SESSION['role'] == 'admin') {
+            header("Location: index.html.php");
         } else {
+
             header('Location: index.html.php');
+
         }
         exit();
     } else {
@@ -27,3 +28,4 @@ if (isset($_SESSION['inscrit'])) {
     $message = $_SESSION['inscrit'];
     unset($_SESSION['inscrit']);
 }
+
