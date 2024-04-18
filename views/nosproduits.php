@@ -7,13 +7,13 @@ require_once dirname(__DIR__) . '\components\ban_produit.php';
 <div id="carouselExampleControlsNoTouching" class="carousel slide w-25 m-25 container mt-5 mb-5" data-bs-touch="false">
   <div class="carousel-inner rounded shadow">
     <div class="carousel-item active">
-      <img src="/medicsong/assets/img/pochette bob 1.jpg" class="d-block w-100" alt="...">
+      <img src="/medicsong/assets/img/pochette bob 1.webp" class="d-block w-100" alt="pochette album">
     </div>
     <div class="carousel-item">
-      <img src="/medicsong/assets/img/pochette eminem 2.jpg" class="d-block w-100" alt="...">
+      <img src="/medicsong/assets/img/pochette eminem 2.webp" class="d-block w-100" alt="pochette album">
     </div>
     <div class="carousel-item">
-      <img src="/medicsong/assets/img/pochette john 1.jpeg" class="d-block w-100" alt="...">
+      <img src="/medicsong/assets/img/pochette john 1.webp" class="d-block w-100" alt="pochette album">
     </div>
   </div>
   <button class="carousel-control-prev rounded-start" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
