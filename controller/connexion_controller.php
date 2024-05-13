@@ -11,11 +11,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION['role'] = $utilisateur['role'];
         $_SESSION['pseudo'] = $utilisateur['pseudo']; 
 
-        if ($_SESSION['role'] == 'admin') {
-            header("Location: index.html.php");
-        } else {
-            header("Location: medicsong/index.html.php");
-        }
+        if ($_SESSION['role'] === 'admin' || $_SESSION['role'] === 'utilisateur') {
+            header("Location: ../index.html.php");
+        } 
         exit();
     } else {
         $erreur = "Email ou mot de passe incorrect.";

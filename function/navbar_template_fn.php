@@ -148,18 +148,18 @@ function navAdminConnect()
                             <a class="nav-link active fs-6" href="/medicsong/index.html.php">ACCUEIL</a>
                         </li>
                         <li class="nav-item mx-3 rounded-1">
-                            <a class="nav-link active fs-6" href="/medicsong/views/admin.php">NOS SPÉCIALISTES</a>
+                            <a class="nav-link active fs-6" href="/medicsong/views/admin.php">NOS SPÉCIALISTES<br><span class="m-0 p-0 b-0 g-0" style="font-size: 11px;">(administrateur)</span></a>
                         </li>
                         <li class="nav-item mx-3 rounded-1">
-                            <a class="nav-link active fs-6" href="/medicsong/views/nosproduits.php">NOS PRODUITS</a>
+                            <a class="nav-link active fs-6" href="/medicsong/views/nosproduits.php">NOS PRODUITS<br><span class="m-0 p-0 b-0 g-0" style="font-size: 11px;">(administrateur)</span></a>
                         </li>
                         <li class="nav-item mx-3 rounded-1">
                             <a class="nav-link active fs-6" href="/medicsong/views/contact.php">CONTACT</a>
                         </li>
                     </ul>
-                    <div class="nav-item mx-3 rounded-1 align-items-center">
+                    <div class="nav-item mx-3 rounded-1 text-center">
                         <ul>
-                            <li class="nav-item mx-3 rounded-1">
+                            <li class="nav-item mx-3 rounded-1 ">
                                 <p class="mb-0" style="font-size: 8px;">WELCOME</p>
                                 <p style="font-size: 13px;"><?php echo $pseudo ?></p>
                             </li>

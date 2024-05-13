@@ -1,12 +1,15 @@
 <?php
 require_once dirname(__DIR__) . '\config\cdb.php';
 require_once dirname(__DIR__) . '\function\membre.fn.php';
-require_once dirname(__DIR__) . '\components\head.php';
 require_once dirname(__DIR__) . '\components\header.php';
-require_once dirname(__DIR__) . '\components\ban_connexion.php';
-require_once dirname(__DIR__) . '\controller\connexion_controller.php'; 
-?>
+require_once dirname(__DIR__) . '\controller\connexion_controller.php';
 
+require_once dirname(__DIR__) . '\components\head.php';
+require_once dirname(__DIR__) . '\components\ban_connexion.php';
+
+
+
+?>
 <!-- page de connexion -->
 
 <div class="d-flex justify-content-evenly align-self-center">
@@ -27,7 +30,8 @@ require_once dirname(__DIR__) . '\controller\connexion_controller.php';
     
     <div class="col align-self-center mb-5">
         <div class="card bg-transparent border-0 align-items-center">
-            <form class="form-control w-75 border border-3 border-success bg-transparent text-center" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" enctype="multipart/form-data" method='post'>
+            <form class="form-control w-75 border border-3 border-success bg-transparent text-center" 
+            action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" enctype="multipart/form-data" method='post'>
                 
             <?php if (!empty($message)) : ?>
                     <div class="alert alert-success mt-3" role="alert">
@@ -59,6 +63,5 @@ require_once dirname(__DIR__) . '\controller\connexion_controller.php';
 </div>
 
 <?php 
-
 require_once dirname(__DIR__) . '\components\footer.php'; 
 ?>

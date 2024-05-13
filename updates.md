@@ -16,3 +16,7 @@ PAGE + NAVBAR :
 _ Uniquement pour les administrateurs
 _ Uniquement pour les users ayant un compte
 _ Uniquement pour les visiteurs sur le site
+
+## 13-05-2024 MAJ de Yoann
+Correction du problème de barre de navigation, du rôle et de la redirection.
+Ajout d'une indication "administrateur" dans la barre de navigation pour le rôle administrateur (aide à repérer la connexion admin).

@@ -1,6 +1,6 @@
 <?php 
 
-function addProduits ($bdd){
+function addProduits ($bdd){ 
 
     // on récupère les infos saisies dans le formulaire formproduits.php
  

@@ -5,8 +5,8 @@ session_start();
 
 if (empty($_SESSION['role'])) {
     echo navUsers();
-} elseif ($_SESSION['role'] === 'utilisateur') {
+} elseif ($_SESSION['role'] == 'utilisateur') {
     echo navUsersConnect();
-} elseif ($_SESSION['role'] === 'admin') {
+} elseif ($_SESSION['role'] == 'admin') {
     echo navAdminConnect();
 }
