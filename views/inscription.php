@@ -13,8 +13,8 @@ require_once dirname(__DIR__) . '\components\ban_inscription.php';
 
  <!-- page d'inscription -->
 
- <div class="d-flex justify-content-evenly align-self-center">
-    <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2">
+ <div class="d-flex justify-content-evenly align-self-centerp-0 m-0 b-0 g-0">
+    <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 p-0 m-0 b-0 g-0">
         <div class="col">
             <div class="m-5">
                 <h1 class="presentation text-center fs-3 mt-5">Rejoignez Médic'Song.</h1>
@@ -29,8 +29,8 @@ require_once dirname(__DIR__) . '\components\ban_inscription.php';
             </div>
         </div>
 
-        <div class="col align-self-center mb-5">
-            <div class="card bg-transparent border-0 align-items-center">
+        <div class="col align-self-center p-0 g-0 m-0 mb-5">
+            <div class="card bg-transparent border-0 align-items-center p-0 b-0 m-0 g-0">
                 <form class="form-control w-75 border border-3 border-success bg-transparent text-center" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" enctype="multipart/form-data" method='post'>
 
                 <?php if (!empty($message)) : ?>
